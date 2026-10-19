@@ -1,0 +1,43 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2870
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 # Documento de Requisitos de Software (SRS) - Aplicaci\'f3n Estilo Mentimeter (Cliente / Local)\
+\
+## 1. Visi\'f3n General del Proyecto\
+Desarrollar una aplicaci\'f3n web interactiva en tiempo real orientada a la evaluaci\'f3n y aprendizaje por carreras universitarias/facultades. Debe funcionar en una arquitectura **100% Cliente (Sin servidor ni base de datos)** para el Producto M\'ednimo Viable (MVP).\
+\
+---\
+\
+## 2. Requisitos Funcionales\
+\
+### RF-01: Backoffice y Gesti\'f3n de Contenido (Local)\
+* **RF-01.1 Gestor de Carreras:** Permitir la creaci\'f3n, edici\'f3n y eliminaci\'f3n de carreras/facultades.\
+* **RF-01.2 Banco de Preguntas:** Permitir la creaci\'f3n de preguntas asociadas a una carrera espec\'edfica.\
+  * Cada pregunta debe incluir: Texto de la pregunta, tiempo l\'edmite (en segundos), opciones de respuesta (m\'ednimo 2, m\'e1ximo 6) y la indicaci\'f3n de la opci\'f3n correcta.\
+* **RF-01.3 Persistencia Local:** Todo el contenido debe almacenarse localmente utilizando `localStorage` o `indexedDB`.\
+* **RF-01.4 Importaci\'f3n / Exportaci\'f3n:** Permitir exportar e importar el banco de preguntas completo en formato JSON.\
+\
+### RF-02: Modo de Juego Individual (Asincr\'f3nico)\
+* **RF-02.1 Selecci\'f3n de Carrera:** El usuario puede seleccionar una carrera y responder sus preguntas de forma independiente.\
+* **RF-02.2 Evaluaci\'f3n:** La aplicaci\'f3n calcula autom\'e1ticamente el puntaje al finalizar el test y muestra el desglose de respuestas correctas e incorrectas.\
+\
+### RF-03: Modo Competitivo (Sincr\'f3nico en Tiempo Real / Peer-to-Peer)\
+* **RF-03.1 Generaci\'f3n de Sala (Host):** El Administrador inicia una sala e genera un c\'f3digo PIN \'fanico para la sesi\'f3n.\
+* **RF-03.2 Conexi\'f3n de Jugadores (Lobby):** Los participantes ingresan mediante el PIN y un *nickname*. El Host visualiza en tiempo real la lista de conectados.\
+* **RF-03.3 Control del Flujo del Juego:** El Host controla el paso de preguntas, la visualizaci\'f3n del temporizador y el env\'edo de resultados a todos los jugadores.\
+* **RF-03.4 Asignaci\'f3n de Puntos:** Los puntos se otorgan en funci\'f3n de la correcci\'f3n de la respuesta y la velocidad de respuesta.\
+* **RF-03.5 Tabla de Posiciones (Leaderboard):** El Host transmite y proyecta el ranking en tiempo real tras cada pregunta o al finalizar la partida.\
+\
+---\
+\
+## 3. Requisitos No Funcionales y Arquitectura\
+\
+* **RNF-01 Stack Frontend:** Desarrollo obligatorio en React / Next.js (App Router) con TypeScript.\
+* **RNF-02 Comunicaci\'f3n Tiempo Real:** Uso de WebRTC v\'eda la librer\'eda `PeerJS` para gestionar la comunicaci\'f3n direct-peer entre el Host (servidor local) y los Jugadores.\
+* **RNF-03 Independencia de Servidor Backend:** La aplicaci\'f3n no debe requerir APIs externas ni bases de datos activas para funcionar.\
+* **RNF-04 Dise\'f1o Responsive:** La interfaz del Jugador debe estar optimizada para dispositivos m\'f3viles y la del Host para proyector o pantalla grande.\
+* **RNF-05 Despliegue:** La aplicaci\'f3n debe ser un build est\'e1tico exportable ejecutable en plataformas como Vercel, Netlify o GitHub Pages.}

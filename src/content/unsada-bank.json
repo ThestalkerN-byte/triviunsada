@@ -1,0 +1,4232 @@
+{
+  "version": 1,
+  "exportedAt": "2026-10-16T00:00:00.000Z",
+  "careers": [
+    {
+      "id": "carrera-agropecuarias",
+      "name": "Ciencias Agropecuarias",
+      "createdAt": "2026-10-16T00:00:00.000Z",
+      "updatedAt": "2026-10-16T00:00:00.000Z"
+    },
+    {
+      "id": "carrera-informatica",
+      "name": "Informática y Tecnología",
+      "createdAt": "2026-10-16T00:00:00.000Z",
+      "updatedAt": "2026-10-16T00:00:00.000Z"
+    },
+    {
+      "id": "carrera-gestion-ambiental",
+      "name": "Gestión Ambiental",
+      "createdAt": "2026-10-16T00:00:00.000Z",
+      "updatedAt": "2026-10-16T00:00:00.000Z"
+    },
+    {
+      "id": "carrera-mantenimiento",
+      "name": "Tecnicatura Universitaria en Mantenimiento Industrial",
+      "createdAt": "2026-10-16T00:00:00.000Z",
+      "updatedAt": "2026-10-16T00:00:00.000Z"
+    }
+  ],
+  "questions": [
+    {
+      "id": "agropecuarias-01",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Cuánto dura la Tecnicatura Universitaria en Producción Agropecuaria de la UNSAdA?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-01-a",
+          "text": "2 años"
+        },
+        {
+          "id": "agropecuarias-01-b",
+          "text": "3 años"
+        },
+        {
+          "id": "agropecuarias-01-c",
+          "text": "5 años"
+        }
+      ],
+      "correctOptionId": "agropecuarias-01-b"
+    },
+    {
+      "id": "agropecuarias-02",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Cuánto dura la Ingeniería Zootecnista de la UNSAdA?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-02-a",
+          "text": "3 años"
+        },
+        {
+          "id": "agropecuarias-02-b",
+          "text": "4 años"
+        },
+        {
+          "id": "agropecuarias-02-c",
+          "text": "5 años"
+        }
+      ],
+      "correctOptionId": "agropecuarias-02-c"
+    },
+    {
+      "id": "agropecuarias-03",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué es el calostro?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-03-a",
+          "text": "Un tipo de pastura"
+        },
+        {
+          "id": "agropecuarias-03-b",
+          "text": "La primera secreción láctea producida después del parto, rica en componentes importantes para el recién nacido"
+        },
+        {
+          "id": "agropecuarias-03-c",
+          "text": "Un suplemento mineral"
+        }
+      ],
+      "correctOptionId": "agropecuarias-03-b"
+    },
+    {
+      "id": "agropecuarias-04",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Cuál de estas asignaturas forma parte de la formación en Producción Agropecuaria de la UNSAdA?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-04-a",
+          "text": "Astronomía Aplicada"
+        },
+        {
+          "id": "agropecuarias-04-b",
+          "text": "Sistemas de Producción Agropecuaria"
+        },
+        {
+          "id": "agropecuarias-04-c",
+          "text": "Historia del Arte"
+        }
+      ],
+      "correctOptionId": "agropecuarias-04-b"
+    },
+    {
+      "id": "agropecuarias-05",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Cuál de estas materias permite estudiar las características y propiedades del suelo?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-05-a",
+          "text": "Edafología"
+        },
+        {
+          "id": "agropecuarias-05-b",
+          "text": "Anatomía"
+        },
+        {
+          "id": "agropecuarias-05-c",
+          "text": "Botánica"
+        }
+      ],
+      "correctOptionId": "agropecuarias-05-a"
+    },
+    {
+      "id": "agropecuarias-06",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué estudia principalmente la Zootecnia?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-06-a",
+          "text": "El diseño de maquinaria industrial"
+        },
+        {
+          "id": "agropecuarias-06-b",
+          "text": "La producción y el manejo de animales de interés productivo"
+        },
+        {
+          "id": "agropecuarias-06-c",
+          "text": "La construcción de viviendas rurales"
+        }
+      ],
+      "correctOptionId": "agropecuarias-06-b"
+    },
+    {
+      "id": "agropecuarias-07",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Cuál de estas actividades puede realizar un/a Técnico/a Universitario/a en Producción Agropecuaria?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-07-a",
+          "text": "Diseñar edificios urbanos"
+        },
+        {
+          "id": "agropecuarias-07-b",
+          "text": "Integrar equipos interdisciplinarios para mejorar la producción agropecuaria"
+        },
+        {
+          "id": "agropecuarias-07-c",
+          "text": "Desarrollar videojuegos"
+        }
+      ],
+      "correctOptionId": "agropecuarias-07-b"
+    },
+    {
+      "id": "agropecuarias-08",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué estudia la Botánica?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-08-a",
+          "text": "Los microorganismos"
+        },
+        {
+          "id": "agropecuarias-08-b",
+          "text": "Los animales"
+        },
+        {
+          "id": "agropecuarias-08-c",
+          "text": "Las plantas"
+        }
+      ],
+      "correctOptionId": "agropecuarias-08-c"
+    },
+    {
+      "id": "agropecuarias-09",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Cuál de estas materias está relacionada directamente con el estudio de la alimentación de los animales?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-09-a",
+          "text": "Nutrición y alimentación animal"
+        },
+        {
+          "id": "agropecuarias-09-b",
+          "text": "Contabilidad General"
+        },
+        {
+          "id": "agropecuarias-09-c",
+          "text": "Geometría Descriptiva"
+        }
+      ],
+      "correctOptionId": "agropecuarias-09-a"
+    },
+    {
+      "id": "agropecuarias-10",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué es un rodeo?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-10-a",
+          "text": "Un tipo de maquinaria agrícola"
+        },
+        {
+          "id": "agropecuarias-10-b",
+          "text": "Un conjunto de animales manejados como unidad productiva"
+        },
+        {
+          "id": "agropecuarias-10-c",
+          "text": "Un tipo de cultivo"
+        }
+      ],
+      "correctOptionId": "agropecuarias-10-b"
+    },
+    {
+      "id": "agropecuarias-11",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Cuál de estas especies forma parte de los sistemas de producción animal que puede estudiar un/a profesional de las ciencias agropecuarias?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-11-a",
+          "text": "Bovinos"
+        },
+        {
+          "id": "agropecuarias-11-b",
+          "text": "Delfines"
+        },
+        {
+          "id": "agropecuarias-11-c",
+          "text": "Pingüinos"
+        }
+      ],
+      "correctOptionId": "agropecuarias-11-a"
+    },
+    {
+      "id": "agropecuarias-12",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué estudia la Genética en las ciencias agropecuarias?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-12-a",
+          "text": "Los tipos de maquinaria agrícola"
+        },
+        {
+          "id": "agropecuarias-12-b",
+          "text": "La herencia de características y su variación en los organismos"
+        },
+        {
+          "id": "agropecuarias-12-c",
+          "text": "La comercialización de productos"
+        }
+      ],
+      "correctOptionId": "agropecuarias-12-b"
+    },
+    {
+      "id": "agropecuarias-13",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué es la inseminación artificial?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-13-a",
+          "text": "Alimentar artificialmente a un animal"
+        },
+        {
+          "id": "agropecuarias-13-b",
+          "text": "Introducir semen en el aparato reproductor de una hembra mediante una técnica controlada para lograr la reproducción"
+        },
+        {
+          "id": "agropecuarias-13-c",
+          "text": "Aplicar una vacuna"
+        }
+      ],
+      "correctOptionId": "agropecuarias-13-b"
+    },
+    {
+      "id": "agropecuarias-14",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué es una ración?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-14-a",
+          "text": "La cantidad de animales de un establecimiento"
+        },
+        {
+          "id": "agropecuarias-14-b",
+          "text": "La cantidad y composición de alimento suministrada a un animal o grupo durante un período determinado"
+        },
+        {
+          "id": "agropecuarias-14-c",
+          "text": "La superficie de un potrero"
+        }
+      ],
+      "correctOptionId": "agropecuarias-14-b"
+    },
+    {
+      "id": "agropecuarias-15",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Cuál de estas materias estudia el clima y sus características relacionadas con la producción agropecuaria?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-15-a",
+          "text": "Climatología y meteorología agrícola"
+        },
+        {
+          "id": "agropecuarias-15-b",
+          "text": "Anatomía"
+        },
+        {
+          "id": "agropecuarias-15-c",
+          "text": "Administración financiera"
+        }
+      ],
+      "correctOptionId": "agropecuarias-15-a"
+    },
+    {
+      "id": "agropecuarias-16",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Por qué es importante conocer el clima en una producción agropecuaria?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-16-a",
+          "text": "Porque determina el precio de los tractores"
+        },
+        {
+          "id": "agropecuarias-16-b",
+          "text": "Porque las condiciones climáticas influyen en cultivos, animales y decisiones productivas"
+        },
+        {
+          "id": "agropecuarias-16-c",
+          "text": "Porque permite elegir el color de las instalaciones"
+        }
+      ],
+      "correctOptionId": "agropecuarias-16-b"
+    },
+    {
+      "id": "agropecuarias-17",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Cuál de estas materias forma parte de la formación de la Ingeniería Zootecnista?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-17-a",
+          "text": "Salud y Bienestar Animal"
+        },
+        {
+          "id": "agropecuarias-17-b",
+          "text": "Historia Medieval"
+        },
+        {
+          "id": "agropecuarias-17-c",
+          "text": "Literatura Argentina"
+        }
+      ],
+      "correctOptionId": "agropecuarias-17-a"
+    },
+    {
+      "id": "agropecuarias-18",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué significa bienestar animal?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-18-a",
+          "text": "Tener animales únicamente para aumentar la producción"
+        },
+        {
+          "id": "agropecuarias-18-b",
+          "text": "Procurar condiciones adecuadas de manejo, alimentación, salud y ambiente para los animales"
+        },
+        {
+          "id": "agropecuarias-18-c",
+          "text": "Evitar cualquier intervención humana sobre los animales"
+        }
+      ],
+      "correctOptionId": "agropecuarias-18-b"
+    },
+    {
+      "id": "agropecuarias-19",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Cuál de estas actividades puede realizar un/a Ingeniero/a Zootecnista?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-19-a",
+          "text": "Analizar y resolver problemas de empresas agropecuarias"
+        },
+        {
+          "id": "agropecuarias-19-b",
+          "text": "Diseñar redes sociales"
+        },
+        {
+          "id": "agropecuarias-19-c",
+          "text": "Construir puentes"
+        }
+      ],
+      "correctOptionId": "agropecuarias-19-a"
+    },
+    {
+      "id": "agropecuarias-20",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué estudia la Fisiología animal?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-20-a",
+          "text": "Los precios de los productos agropecuarios"
+        },
+        {
+          "id": "agropecuarias-20-b",
+          "text": "El funcionamiento de los organismos animales"
+        },
+        {
+          "id": "agropecuarias-20-c",
+          "text": "El diseño de maquinaria"
+        }
+      ],
+      "correctOptionId": "agropecuarias-20-b"
+    },
+    {
+      "id": "agropecuarias-21",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué es el ensilaje?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-21-a",
+          "text": "Un método para secar granos al sol"
+        },
+        {
+          "id": "agropecuarias-21-b",
+          "text": "Un método de conservación de forrajes mediante fermentación en condiciones de poco oxígeno"
+        },
+        {
+          "id": "agropecuarias-21-c",
+          "text": "Un tratamiento sanitario"
+        }
+      ],
+      "correctOptionId": "agropecuarias-21-b"
+    },
+    {
+      "id": "agropecuarias-22",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué estudia la Fisiología vegetal?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-22-a",
+          "text": "El funcionamiento y los procesos vitales de las plantas"
+        },
+        {
+          "id": "agropecuarias-22-b",
+          "text": "La reproducción de los bovinos"
+        },
+        {
+          "id": "agropecuarias-22-c",
+          "text": "La administración de empresas"
+        }
+      ],
+      "correctOptionId": "agropecuarias-22-a"
+    },
+    {
+      "id": "agropecuarias-23",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Cuál de estos animales forma parte de los sistemas productivos estudiados en la carrera?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-23-a",
+          "text": "Ovinos y caprinos"
+        },
+        {
+          "id": "agropecuarias-23-b",
+          "text": "Osos polares"
+        },
+        {
+          "id": "agropecuarias-23-c",
+          "text": "Leones"
+        }
+      ],
+      "correctOptionId": "agropecuarias-23-a"
+    },
+    {
+      "id": "agropecuarias-24",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué es la fertilización?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-24-a",
+          "text": "Eliminar todas las plantas de un lote"
+        },
+        {
+          "id": "agropecuarias-24-b",
+          "text": "Aportar nutrientes al suelo o al cultivo para satisfacer sus necesidades, de acuerdo con un diagnóstico y manejo adecuados"
+        },
+        {
+          "id": "agropecuarias-24-c",
+          "text": "Regar exclusivamente con agua"
+        }
+      ],
+      "correctOptionId": "agropecuarias-24-b"
+    },
+    {
+      "id": "agropecuarias-25",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué es la forrajicultura?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-25-a",
+          "text": "El estudio de las enfermedades de los animales"
+        },
+        {
+          "id": "agropecuarias-25-b",
+          "text": "El estudio y manejo de plantas destinadas a la alimentación de animales"
+        },
+        {
+          "id": "agropecuarias-25-c",
+          "text": "El estudio de los motores de los tractores"
+        }
+      ],
+      "correctOptionId": "agropecuarias-25-b"
+    },
+    {
+      "id": "agropecuarias-26",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué relación existe entre la producción agropecuaria y el cuidado del suelo y el agua?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-26-a",
+          "text": "Ninguna"
+        },
+        {
+          "id": "agropecuarias-26-b",
+          "text": "El manejo adecuado de ambos recursos es fundamental para una producción sostenible"
+        },
+        {
+          "id": "agropecuarias-26-c",
+          "text": "Solo importa en las producciones urbanas"
+        }
+      ],
+      "correctOptionId": "agropecuarias-26-b"
+    },
+    {
+      "id": "agropecuarias-27",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Cuál de estas materias de la Ingeniería Zootecnista se relaciona con el mejoramiento de las características productivas de los animales?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-27-a",
+          "text": "Genética y mejoramiento genético"
+        },
+        {
+          "id": "agropecuarias-27-b",
+          "text": "Comunicación en la ciencia"
+        },
+        {
+          "id": "agropecuarias-27-c",
+          "text": "Matemática"
+        }
+      ],
+      "correctOptionId": "agropecuarias-27-a"
+    },
+    {
+      "id": "agropecuarias-28",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué tipo de actividad permite acercar a los estudiantes de las carreras agropecuarias a situaciones reales de trabajo?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-28-a",
+          "text": "Las prácticas profesionales y actividades a campo"
+        },
+        {
+          "id": "agropecuarias-28-b",
+          "text": "Los exámenes escritos"
+        },
+        {
+          "id": "agropecuarias-28-c",
+          "text": "Las clases teóricas"
+        }
+      ],
+      "correctOptionId": "agropecuarias-28-a"
+    },
+    {
+      "id": "agropecuarias-29",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿En qué ámbito puede trabajar un/a profesional formado/a en Ciencias Agropecuarias?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-29-a",
+          "text": "Solamente en un laboratorio"
+        },
+        {
+          "id": "agropecuarias-29-b",
+          "text": "En establecimientos productivos, empresas, organismos públicos, equipos técnicos y proyectos agropecuarios, entre otros ámbitos"
+        },
+        {
+          "id": "agropecuarias-29-c",
+          "text": "Exclusivamente en escuelas"
+        }
+      ],
+      "correctOptionId": "agropecuarias-29-b"
+    },
+    {
+      "id": "agropecuarias-30",
+      "careerId": "carrera-agropecuarias",
+      "text": "Si te interesa trabajar con animales, plantas, producción, tecnología y ambiente, ¿qué área de la UNSAdA podrías elegir?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-30-a",
+          "text": "Ciencias Agropecuarias – Tecnicatura Universitaria en Producción Agropecuaria o Ingeniería Zootecnista"
+        },
+        {
+          "id": "agropecuarias-30-b",
+          "text": "Informática y tecnología"
+        },
+        {
+          "id": "agropecuarias-30-c",
+          "text": "Mantenimiento Industrial"
+        }
+      ],
+      "correctOptionId": "agropecuarias-30-a"
+    },
+    {
+      "id": "agropecuarias-31",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Cuánto dura aproximadamente la gestación de una vaca?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-31-a",
+          "text": "3 meses"
+        },
+        {
+          "id": "agropecuarias-31-b",
+          "text": "9 meses"
+        },
+        {
+          "id": "agropecuarias-31-c",
+          "text": "14 meses"
+        }
+      ],
+      "correctOptionId": "agropecuarias-31-b"
+    },
+    {
+      "id": "agropecuarias-32",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Cómo se llama la cría de la vaca?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-32-a",
+          "text": "Potrillo"
+        },
+        {
+          "id": "agropecuarias-32-b",
+          "text": "Ternero/a"
+        },
+        {
+          "id": "agropecuarias-32-c",
+          "text": "Cordero"
+        }
+      ],
+      "correctOptionId": "agropecuarias-32-b"
+    },
+    {
+      "id": "agropecuarias-33",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Cuánto dura aproximadamente la gestación de una yegua?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-33-a",
+          "text": "11 meses"
+        },
+        {
+          "id": "agropecuarias-33-b",
+          "text": "6 meses"
+        },
+        {
+          "id": "agropecuarias-33-c",
+          "text": "18 meses"
+        }
+      ],
+      "correctOptionId": "agropecuarias-33-a"
+    },
+    {
+      "id": "agropecuarias-34",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Cómo se llama la cría de la oveja?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-34-a",
+          "text": "Ternero"
+        },
+        {
+          "id": "agropecuarias-34-b",
+          "text": "Cordero/a"
+        },
+        {
+          "id": "agropecuarias-34-c",
+          "text": "Lechón"
+        }
+      ],
+      "correctOptionId": "agropecuarias-34-b"
+    },
+    {
+      "id": "agropecuarias-35",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué animal produce leche que se utiliza habitualmente para elaborar productos lácteos?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-35-a",
+          "text": "Vaca"
+        },
+        {
+          "id": "agropecuarias-35-b",
+          "text": "Gallina"
+        },
+        {
+          "id": "agropecuarias-35-c",
+          "text": "Oveja"
+        }
+      ],
+      "correctOptionId": "agropecuarias-35-a"
+    },
+    {
+      "id": "agropecuarias-36",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué función cumple principalmente el rumen en los bovinos?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-36-a",
+          "text": "Bombear sangre"
+        },
+        {
+          "id": "agropecuarias-36-b",
+          "text": "Participar en la digestión de alimentos mediante la acción de microorganismos"
+        },
+        {
+          "id": "agropecuarias-36-c",
+          "text": "Producir hormonas reproductivas"
+        }
+      ],
+      "correctOptionId": "agropecuarias-36-b"
+    },
+    {
+      "id": "agropecuarias-37",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Por qué los bovinos pueden aprovechar el pasto de manera diferente a los animales monogástricos?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-37-a",
+          "text": "Porque no necesitan agua"
+        },
+        {
+          "id": "agropecuarias-37-b",
+          "text": "Porque poseen un sistema digestivo especializado que permite aprovechar la fibra con ayuda de microorganismos"
+        },
+        {
+          "id": "agropecuarias-37-c",
+          "text": "Porque pueden digerir cualquier alimento"
+        }
+      ],
+      "correctOptionId": "agropecuarias-37-b"
+    },
+    {
+      "id": "agropecuarias-38",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué nutriente aporta principalmente energía para los animales?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-38-a",
+          "text": "Carbohidratos"
+        },
+        {
+          "id": "agropecuarias-38-b",
+          "text": "Agua"
+        },
+        {
+          "id": "agropecuarias-38-c",
+          "text": "Minerales exclusivamente"
+        }
+      ],
+      "correctOptionId": "agropecuarias-38-a"
+    },
+    {
+      "id": "agropecuarias-39",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Por qué es importante que los animales tengan acceso permanente a agua de calidad?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-39-a",
+          "text": "Solo para mantenerlos limpios"
+        },
+        {
+          "id": "agropecuarias-39-b",
+          "text": "Porque el agua es fundamental para las funciones vitales y el correcto funcionamiento del organismo"
+        },
+        {
+          "id": "agropecuarias-39-c",
+          "text": "Porque reemplaza todos los nutrientes de la alimentación"
+        }
+      ],
+      "correctOptionId": "agropecuarias-39-b"
+    },
+    {
+      "id": "agropecuarias-40",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué se entiende por pastura?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-40-a",
+          "text": "Un tipo de maquinaria agrícola"
+        },
+        {
+          "id": "agropecuarias-40-b",
+          "text": "Una superficie con vegetación destinada, entre otros usos, a la alimentación de animales"
+        },
+        {
+          "id": "agropecuarias-40-c",
+          "text": "Un medicamento veterinario"
+        }
+      ],
+      "correctOptionId": "agropecuarias-40-b"
+    },
+    {
+      "id": "agropecuarias-41",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué es una maleza?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-41-a",
+          "text": "Un animal que afecta al ganado"
+        },
+        {
+          "id": "agropecuarias-41-b",
+          "text": "Una planta que crece donde no es deseada y puede competir con los cultivos o pasturas"
+        },
+        {
+          "id": "agropecuarias-41-c",
+          "text": "Una enfermedad de los cultivos"
+        }
+      ],
+      "correctOptionId": "agropecuarias-41-b"
+    },
+    {
+      "id": "agropecuarias-42",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué función cumple principalmente la raíz de una planta?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-42-a",
+          "text": "Producir leche"
+        },
+        {
+          "id": "agropecuarias-42-b",
+          "text": "Absorber agua y nutrientes y contribuir al anclaje de la planta"
+        },
+        {
+          "id": "agropecuarias-42-c",
+          "text": "Realizar exclusivamente la fotosíntesis"
+        }
+      ],
+      "correctOptionId": "agropecuarias-42-b"
+    },
+    {
+      "id": "agropecuarias-43",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué necesitan las plantas para realizar la fotosíntesis?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-43-a",
+          "text": "Oscuridad, sal y viento"
+        },
+        {
+          "id": "agropecuarias-43-b",
+          "text": "Luz, agua y dióxido de carbono"
+        },
+        {
+          "id": "agropecuarias-43-c",
+          "text": "Únicamente oxígeno"
+        }
+      ],
+      "correctOptionId": "agropecuarias-43-b"
+    },
+    {
+      "id": "agropecuarias-44",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué es la rotación de cultivos?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-44-a",
+          "text": "Cambiar los animales de potrero todos los días"
+        },
+        {
+          "id": "agropecuarias-44-b",
+          "text": "Alternar diferentes cultivos en un mismo lote a lo largo del tiempo"
+        },
+        {
+          "id": "agropecuarias-44-c",
+          "text": "Cambiar de tractor durante la cosecha"
+        }
+      ],
+      "correctOptionId": "agropecuarias-44-b"
+    },
+    {
+      "id": "agropecuarias-45",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Por qué es importante analizar el suelo antes de planificar determinados cultivos?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-45-a",
+          "text": "Para conocer el color del tractor que debe utilizarse"
+        },
+        {
+          "id": "agropecuarias-45-b",
+          "text": "Para conocer sus características y disponibilidad de nutrientes y tomar decisiones de manejo"
+        },
+        {
+          "id": "agropecuarias-45-c",
+          "text": "Porque todos los suelos tienen exactamente las mismas propiedades"
+        }
+      ],
+      "correctOptionId": "agropecuarias-45-b"
+    },
+    {
+      "id": "agropecuarias-46",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué función cumple principalmente el nitrógeno en las plantas?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-46-a",
+          "text": "Participa en procesos relacionados con el crecimiento y la formación de proteínas"
+        },
+        {
+          "id": "agropecuarias-46-b",
+          "text": "Reemplaza completamente al agua"
+        },
+        {
+          "id": "agropecuarias-46-c",
+          "text": "Evita que las plantas reciban luz"
+        }
+      ],
+      "correctOptionId": "agropecuarias-46-a"
+    },
+    {
+      "id": "agropecuarias-47",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué significa realizar una vacunación en el ganado?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-47-a",
+          "text": "Alimentar al animal con vitaminas"
+        },
+        {
+          "id": "agropecuarias-47-b",
+          "text": "Aplicar una vacuna para estimular una respuesta inmunitaria frente a determinadas enfermedades"
+        },
+        {
+          "id": "agropecuarias-47-c",
+          "text": "Aumentar directamente el peso del animal"
+        }
+      ],
+      "correctOptionId": "agropecuarias-47-b"
+    },
+    {
+      "id": "agropecuarias-48",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué información puede utilizar un profesional para evaluar el desempeño de un rodeo?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-48-a",
+          "text": "Solo el color de los animales"
+        },
+        {
+          "id": "agropecuarias-48-b",
+          "text": "Indicadores como índices reproductivos, ganancias de peso, tasas de preñez y mortalidad, entre otros"
+        },
+        {
+          "id": "agropecuarias-48-c",
+          "text": "Únicamente el tamaño del establecimiento"
+        }
+      ],
+      "correctOptionId": "agropecuarias-48-b"
+    },
+    {
+      "id": "agropecuarias-49",
+      "careerId": "carrera-agropecuarias",
+      "text": "¿Qué significa \"carga animal\" en un sistema ganadero?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-49-a",
+          "text": "La cantidad de alimento que transporta un camión"
+        },
+        {
+          "id": "agropecuarias-49-b",
+          "text": "La cantidad de animales que utiliza una determinada superficie durante un período de tiempo"
+        },
+        {
+          "id": "agropecuarias-49-c",
+          "text": "El peso máximo que puede transportar un tractor"
+        }
+      ],
+      "correctOptionId": "agropecuarias-49-b"
+    },
+    {
+      "id": "agropecuarias-50",
+      "careerId": "carrera-agropecuarias",
+      "text": "Si un productor quiere mejorar la producción de carne de su establecimiento, ¿qué debería analizar un profesional?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "agropecuarias-50-a",
+          "text": "Solo el precio de venta de los animales"
+        },
+        {
+          "id": "agropecuarias-50-b",
+          "text": "Alimentación, genética, sanidad, manejo, reproducción, ambiente y resultados productivos, entre otros factores"
+        },
+        {
+          "id": "agropecuarias-50-c",
+          "text": "Únicamente la cantidad de hectáreas"
+        }
+      ],
+      "correctOptionId": "agropecuarias-50-b"
+    },
+    {
+      "id": "informatica-01",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué carrera de la UNSAdA forma profesionales en el campo de la informática?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-01-a",
+          "text": "Tecnicatura Universitaria en Gestión Ambiental"
+        },
+        {
+          "id": "informatica-01-b",
+          "text": "Licenciatura en Informática"
+        },
+        {
+          "id": "informatica-01-c",
+          "text": "Ingeniería Zootecnista"
+        }
+      ],
+      "correctOptionId": "informatica-01-b"
+    },
+    {
+      "id": "informatica-02",
+      "careerId": "carrera-informatica",
+      "text": "¿Cuál de estas carreras pertenece al área de Informática y Tecnología de la UNSAdA?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-02-a",
+          "text": "Analista en Informática"
+        },
+        {
+          "id": "informatica-02-b",
+          "text": "Tecnicatura Universitaria en Producción Agropecuaria"
+        },
+        {
+          "id": "informatica-02-c",
+          "text": "Tecnicatura Universitaria en Gestión Ambiental"
+        }
+      ],
+      "correctOptionId": "informatica-02-a"
+    },
+    {
+      "id": "informatica-03",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué estudia principalmente la informática?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-03-a",
+          "text": "Solamente el funcionamiento de las computadoras"
+        },
+        {
+          "id": "informatica-03-b",
+          "text": "El procesamiento de información mediante sistemas computacionales y tecnologías digitales"
+        },
+        {
+          "id": "informatica-03-c",
+          "text": "Únicamente las redes sociales"
+        }
+      ],
+      "correctOptionId": "informatica-03-b"
+    },
+    {
+      "id": "informatica-04",
+      "careerId": "carrera-informatica",
+      "text": "¿Cuál es una diferencia entre hardware y software?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-04-a",
+          "text": "Son exactamente lo mismo"
+        },
+        {
+          "id": "informatica-04-b",
+          "text": "El hardware son los componentes físicos y el software son los programas e instrucciones"
+        },
+        {
+          "id": "informatica-04-c",
+          "text": "El hardware son los programas y el software las partes físicas"
+        }
+      ],
+      "correctOptionId": "informatica-04-b"
+    },
+    {
+      "id": "informatica-05",
+      "careerId": "carrera-informatica",
+      "text": "¿Cuál de estos elementos es hardware?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-05-a",
+          "text": "Windows"
+        },
+        {
+          "id": "informatica-05-b",
+          "text": "Un navegador web"
+        },
+        {
+          "id": "informatica-05-c",
+          "text": "Procesador"
+        }
+      ],
+      "correctOptionId": "informatica-05-c"
+    },
+    {
+      "id": "informatica-06",
+      "careerId": "carrera-informatica",
+      "text": "¿Cuál de estos ejemplos corresponde a software?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-06-a",
+          "text": "Teclado"
+        },
+        {
+          "id": "informatica-06-b",
+          "text": "Memoria RAM"
+        },
+        {
+          "id": "informatica-06-c",
+          "text": "Sistema operativo"
+        }
+      ],
+      "correctOptionId": "informatica-06-c"
+    },
+    {
+      "id": "informatica-07",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué función cumple principalmente el procesador (CPU)?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-07-a",
+          "text": "Almacenar permanentemente todos los archivos"
+        },
+        {
+          "id": "informatica-07-b",
+          "text": "Ejecutar instrucciones y realizar operaciones de procesamiento"
+        },
+        {
+          "id": "informatica-07-c",
+          "text": "Mostrar imágenes en el monitor exclusivamente"
+        }
+      ],
+      "correctOptionId": "informatica-07-b"
+    },
+    {
+      "id": "informatica-08",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué es la memoria RAM?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-08-a",
+          "text": "Un dispositivo para imprimir documentos"
+        },
+        {
+          "id": "informatica-08-b",
+          "text": "Una memoria utilizada para almacenar temporalmente datos e instrucciones que están siendo utilizados por el sistema"
+        },
+        {
+          "id": "informatica-08-c",
+          "text": "Un tipo de conexión a Internet"
+        }
+      ],
+      "correctOptionId": "informatica-08-b"
+    },
+    {
+      "id": "informatica-09",
+      "careerId": "carrera-informatica",
+      "text": "¿Cuál de estos dispositivos permite almacenar información?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-09-a",
+          "text": "Disco SSD"
+        },
+        {
+          "id": "informatica-09-b",
+          "text": "Monitor"
+        },
+        {
+          "id": "informatica-09-c",
+          "text": "Mouse"
+        }
+      ],
+      "correctOptionId": "informatica-09-a"
+    },
+    {
+      "id": "informatica-10",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué es un algoritmo?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-10-a",
+          "text": "Una pieza física de una computadora"
+        },
+        {
+          "id": "informatica-10-b",
+          "text": "Un conjunto ordenado de pasos para resolver un problema o realizar una tarea"
+        },
+        {
+          "id": "informatica-10-c",
+          "text": "Un tipo de virus informático"
+        }
+      ],
+      "correctOptionId": "informatica-10-b"
+    },
+    {
+      "id": "informatica-11",
+      "careerId": "carrera-informatica",
+      "text": "¿Para qué sirve un lenguaje de programación?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-11-a",
+          "text": "Para aumentar físicamente la memoria de una computadora"
+        },
+        {
+          "id": "informatica-11-b",
+          "text": "Para expresar instrucciones que una computadora puede procesar mediante un programa"
+        },
+        {
+          "id": "informatica-11-c",
+          "text": "Para reparar automáticamente un monitor"
+        }
+      ],
+      "correctOptionId": "informatica-11-b"
+    },
+    {
+      "id": "informatica-12",
+      "careerId": "carrera-informatica",
+      "text": "¿Cuál de estos es un lenguaje de programación?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-12-a",
+          "text": "Python"
+        },
+        {
+          "id": "informatica-12-b",
+          "text": "Google"
+        },
+        {
+          "id": "informatica-12-c",
+          "text": "Wi-Fi"
+        }
+      ],
+      "correctOptionId": "informatica-12-a"
+    },
+    {
+      "id": "informatica-13",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué significa programar?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-13-a",
+          "text": "Utilizar una computadora solamente para jugar"
+        },
+        {
+          "id": "informatica-13-b",
+          "text": "Diseñar y escribir instrucciones para que un sistema realice determinadas tareas"
+        },
+        {
+          "id": "informatica-13-c",
+          "text": "Conectar una computadora a una impresora"
+        }
+      ],
+      "correctOptionId": "informatica-13-b"
+    },
+    {
+      "id": "informatica-14",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué es una base de datos?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-14-a",
+          "text": "Una carpeta que contiene únicamente fotografías"
+        },
+        {
+          "id": "informatica-14-b",
+          "text": "Un sistema organizado para almacenar, gestionar y consultar información"
+        },
+        {
+          "id": "informatica-14-c",
+          "text": "Un programa para dibujar"
+        }
+      ],
+      "correctOptionId": "informatica-14-b"
+    },
+    {
+      "id": "informatica-15",
+      "careerId": "carrera-informatica",
+      "text": "¿Cuál de estos ejemplos podría utilizar una base de datos?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-15-a",
+          "text": "Un sistema que registra estudiantes, materias y calificaciones"
+        },
+        {
+          "id": "informatica-15-b",
+          "text": "Un teclado"
+        },
+        {
+          "id": "informatica-15-c",
+          "text": "Un cable de alimentación"
+        }
+      ],
+      "correctOptionId": "informatica-15-a"
+    },
+    {
+      "id": "informatica-16",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué es una red informática?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-16-a",
+          "text": "Un conjunto de cables sin ninguna función"
+        },
+        {
+          "id": "informatica-16-b",
+          "text": "Un conjunto de dispositivos conectados que pueden comunicarse y compartir recursos o información"
+        },
+        {
+          "id": "informatica-16-c",
+          "text": "Un programa para editar fotografías"
+        }
+      ],
+      "correctOptionId": "informatica-16-b"
+    },
+    {
+      "id": "informatica-17",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué significa Wi-Fi?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-17-a",
+          "text": "Un tipo de procesador"
+        },
+        {
+          "id": "informatica-17-b",
+          "text": "Una tecnología que permite conexiones inalámbricas a una red"
+        },
+        {
+          "id": "informatica-17-c",
+          "text": "Un lenguaje de programación"
+        }
+      ],
+      "correctOptionId": "informatica-17-b"
+    },
+    {
+      "id": "informatica-18",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué función cumple un router?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-18-a",
+          "text": "Imprimir documentos"
+        },
+        {
+          "id": "informatica-18-b",
+          "text": "Gestionar y dirigir el tráfico de datos entre redes y dispositivos, según su configuración"
+        },
+        {
+          "id": "informatica-18-c",
+          "text": "Aumentar la capacidad de almacenamiento de una computadora"
+        }
+      ],
+      "correctOptionId": "informatica-18-b"
+    },
+    {
+      "id": "informatica-19",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué es Internet?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-19-a",
+          "text": "Una única computadora gigante"
+        },
+        {
+          "id": "informatica-19-b",
+          "text": "Una red mundial de redes y dispositivos interconectados"
+        },
+        {
+          "id": "informatica-19-c",
+          "text": "Un sistema operativo"
+        }
+      ],
+      "correctOptionId": "informatica-19-b"
+    },
+    {
+      "id": "informatica-20",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué es una dirección IP?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-20-a",
+          "text": "Una contraseña"
+        },
+        {
+          "id": "informatica-20-b",
+          "text": "Un identificador numérico utilizado para identificar una interfaz o dispositivo dentro de una red mediante el protocolo IP"
+        },
+        {
+          "id": "informatica-20-c",
+          "text": "Un tipo de virus"
+        }
+      ],
+      "correctOptionId": "informatica-20-b"
+    },
+    {
+      "id": "informatica-21",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué es la ciberseguridad?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-21-a",
+          "text": "El diseño de videojuegos"
+        },
+        {
+          "id": "informatica-21-b",
+          "text": "El conjunto de prácticas y medidas destinadas a proteger sistemas, redes, dispositivos y datos frente a amenazas digitales"
+        },
+        {
+          "id": "informatica-21-c",
+          "text": "La reparación física de computadoras"
+        }
+      ],
+      "correctOptionId": "informatica-21-b"
+    },
+    {
+      "id": "informatica-22",
+      "careerId": "carrera-informatica",
+      "text": "¿Cuál de estas es una buena práctica de seguridad digital?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-22-a",
+          "text": "Utilizar la misma contraseña para todas las cuentas"
+        },
+        {
+          "id": "informatica-22-b",
+          "text": "Compartir las contraseñas con amigos"
+        },
+        {
+          "id": "informatica-22-c",
+          "text": "Utilizar contraseñas robustas y diferentes y activar la autenticación multifactor cuando sea posible"
+        }
+      ],
+      "correctOptionId": "informatica-22-c"
+    },
+    {
+      "id": "informatica-23",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué es el phishing?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-23-a",
+          "text": "Un lenguaje de programación"
+        },
+        {
+          "id": "informatica-23-b",
+          "text": "Una técnica de engaño utilizada para intentar obtener información confidencial, como contraseñas o datos personales"
+        },
+        {
+          "id": "informatica-23-c",
+          "text": "Un sistema para mejorar la velocidad de Internet"
+        }
+      ],
+      "correctOptionId": "informatica-23-b"
+    },
+    {
+      "id": "informatica-24",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué es un malware?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-24-a",
+          "text": "Un dispositivo de almacenamiento"
+        },
+        {
+          "id": "informatica-24-b",
+          "text": "Software diseñado para realizar acciones maliciosas o no autorizadas en un sistema"
+        },
+        {
+          "id": "informatica-24-c",
+          "text": "Una herramienta para programar páginas web"
+        }
+      ],
+      "correctOptionId": "informatica-24-b"
+    },
+    {
+      "id": "informatica-25",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué es la inteligencia artificial?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-25-a",
+          "text": "Una computadora que necesariamente tiene forma de robot"
+        },
+        {
+          "id": "informatica-25-b",
+          "text": "Un conjunto de técnicas y sistemas que permiten realizar tareas asociadas a capacidades como el aprendizaje, la percepción o la generación de contenido"
+        },
+        {
+          "id": "informatica-25-c",
+          "text": "Una conexión inalámbrica"
+        }
+      ],
+      "correctOptionId": "informatica-25-b"
+    },
+    {
+      "id": "informatica-26",
+      "careerId": "carrera-informatica",
+      "text": "¿Cuál de estos ejemplos utiliza inteligencia artificial?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-26-a",
+          "text": "Un sistema que analiza imágenes para identificar objetos"
+        },
+        {
+          "id": "informatica-26-b",
+          "text": "Un cable USB"
+        },
+        {
+          "id": "informatica-26-c",
+          "text": "Un teclado mecánico"
+        }
+      ],
+      "correctOptionId": "informatica-26-a"
+    },
+    {
+      "id": "informatica-27",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué es el aprendizaje automático o machine learning?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-27-a",
+          "text": "Aprender a utilizar un teclado"
+        },
+        {
+          "id": "informatica-27-b",
+          "text": "Una rama de la inteligencia artificial en la que los sistemas pueden aprender patrones a partir de datos para realizar determinadas tareas"
+        },
+        {
+          "id": "informatica-27-c",
+          "text": "Reparar una computadora"
+        }
+      ],
+      "correctOptionId": "informatica-27-b"
+    },
+    {
+      "id": "informatica-28",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué es una aplicación móvil?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-28-a",
+          "text": "Una pieza física del teléfono"
+        },
+        {
+          "id": "informatica-28-b",
+          "text": "Un programa diseñado para ejecutarse en dispositivos móviles"
+        },
+        {
+          "id": "informatica-28-c",
+          "text": "Un tipo de conexión satelital"
+        }
+      ],
+      "correctOptionId": "informatica-28-b"
+    },
+    {
+      "id": "informatica-29",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué es el desarrollo web?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-29-a",
+          "text": "Reparar servidores físicamente"
+        },
+        {
+          "id": "informatica-29-b",
+          "text": "Crear y mantener sitios y aplicaciones que funcionan mediante tecnologías web"
+        },
+        {
+          "id": "informatica-29-c",
+          "text": "Diseñar únicamente imágenes para redes sociales"
+        }
+      ],
+      "correctOptionId": "informatica-29-b"
+    },
+    {
+      "id": "informatica-30",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué lenguaje se utiliza habitualmente para estructurar el contenido de una página web?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-30-a",
+          "text": "HTML"
+        },
+        {
+          "id": "informatica-30-b",
+          "text": "SQL"
+        },
+        {
+          "id": "informatica-30-c",
+          "text": "Python exclusivamente"
+        }
+      ],
+      "correctOptionId": "informatica-30-a"
+    },
+    {
+      "id": "informatica-31",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué función cumple CSS en una página web?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-31-a",
+          "text": "Administrar una base de datos"
+        },
+        {
+          "id": "informatica-31-b",
+          "text": "Definir principalmente la presentación y el estilo visual de los documentos web"
+        },
+        {
+          "id": "informatica-31-c",
+          "text": "Reemplazar al sistema operativo"
+        }
+      ],
+      "correctOptionId": "informatica-31-b"
+    },
+    {
+      "id": "informatica-32",
+      "careerId": "carrera-informatica",
+      "text": "¿Para qué se utiliza JavaScript en el desarrollo web?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-32-a",
+          "text": "Para fabricar componentes electrónicos"
+        },
+        {
+          "id": "informatica-32-b",
+          "text": "Para incorporar comportamiento e interactividad a las páginas y aplicaciones web"
+        },
+        {
+          "id": "informatica-32-c",
+          "text": "Para aumentar físicamente la memoria RAM"
+        }
+      ],
+      "correctOptionId": "informatica-32-b"
+    },
+    {
+      "id": "informatica-33",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué significa \"bug\" en informática?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-33-a",
+          "text": "Un componente de hardware"
+        },
+        {
+          "id": "informatica-33-b",
+          "text": "Un error o defecto en un programa o sistema que puede provocar un comportamiento incorrecto"
+        },
+        {
+          "id": "informatica-33-c",
+          "text": "Una contraseña segura"
+        }
+      ],
+      "correctOptionId": "informatica-33-b"
+    },
+    {
+      "id": "informatica-34",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué significa depurar un programa?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-34-a",
+          "text": "Borrar todos los archivos"
+        },
+        {
+          "id": "informatica-34-b",
+          "text": "Buscar, identificar y corregir errores en un programa"
+        },
+        {
+          "id": "informatica-34-c",
+          "text": "Instalar un monitor nuevo"
+        }
+      ],
+      "correctOptionId": "informatica-34-b"
+    },
+    {
+      "id": "informatica-35",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué es el código fuente?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-35-a",
+          "text": "El manual de una computadora"
+        },
+        {
+          "id": "informatica-35-b",
+          "text": "El conjunto de instrucciones escritas en un lenguaje de programación que conforman un programa"
+        },
+        {
+          "id": "informatica-35-c",
+          "text": "Una copia de seguridad"
+        }
+      ],
+      "correctOptionId": "informatica-35-b"
+    },
+    {
+      "id": "informatica-36",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué es Git?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-36-a",
+          "text": "Un sistema operativo"
+        },
+        {
+          "id": "informatica-36-b",
+          "text": "Una herramienta de control de versiones que permite registrar y gestionar cambios en archivos y proyectos, especialmente código"
+        },
+        {
+          "id": "informatica-36-c",
+          "text": "Un tipo de memoria RAM"
+        }
+      ],
+      "correctOptionId": "informatica-36-b"
+    },
+    {
+      "id": "informatica-37",
+      "careerId": "carrera-informatica",
+      "text": "¿Por qué es importante realizar copias de seguridad?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-37-a",
+          "text": "Para hacer que el monitor tenga mayor resolución"
+        },
+        {
+          "id": "informatica-37-b",
+          "text": "Para poder recuperar información ante pérdidas, errores o incidentes"
+        },
+        {
+          "id": "informatica-37-c",
+          "text": "Para aumentar la velocidad del procesador"
+        }
+      ],
+      "correctOptionId": "informatica-37-b"
+    },
+    {
+      "id": "informatica-38",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué es la computación en la nube?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-38-a",
+          "text": "Guardar archivos físicamente dentro de una nube"
+        },
+        {
+          "id": "informatica-38-b",
+          "text": "Utilizar recursos informáticos, almacenamiento o servicios a través de Internet y de infraestructura remota"
+        },
+        {
+          "id": "informatica-38-c",
+          "text": "Una tecnología exclusiva de los teléfonos celulares"
+        }
+      ],
+      "correctOptionId": "informatica-38-b"
+    },
+    {
+      "id": "informatica-39",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué es una API?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-39-a",
+          "text": "Una placa de video"
+        },
+        {
+          "id": "informatica-39-b",
+          "text": "Un conjunto de reglas y mecanismos que permiten la comunicación entre diferentes componentes o sistemas de software"
+        },
+        {
+          "id": "informatica-39-c",
+          "text": "Un tipo de antivirus"
+        }
+      ],
+      "correctOptionId": "informatica-39-b"
+    },
+    {
+      "id": "informatica-40",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué profesional puede participar en el desarrollo de un sistema informático para una institución?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-40-a",
+          "text": "Un/a profesional de informática"
+        },
+        {
+          "id": "informatica-40-b",
+          "text": "Un/a diseñador/a gráfico/a"
+        },
+        {
+          "id": "informatica-40-c",
+          "text": "Un/a contador/a"
+        }
+      ],
+      "correctOptionId": "informatica-40-a"
+    },
+    {
+      "id": "informatica-41",
+      "careerId": "carrera-informatica",
+      "text": "Si una empresa necesita desarrollar un sistema para administrar sus ventas, ¿qué conocimientos serían especialmente importantes?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-41-a",
+          "text": "Programación, análisis de sistemas, bases de datos y gestión de información"
+        },
+        {
+          "id": "informatica-41-b",
+          "text": "Edición de fotografías"
+        },
+        {
+          "id": "informatica-41-c",
+          "text": "Reparación de celulares"
+        }
+      ],
+      "correctOptionId": "informatica-41-a"
+    },
+    {
+      "id": "informatica-42",
+      "careerId": "carrera-informatica",
+      "text": "Si una organización necesita un sistema para registrar y controlar su equipamiento, ¿qué podría desarrollar un profesional de informática?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-42-a",
+          "text": "Un sistema de gestión con base de datos, usuarios, consultas y reportes"
+        },
+        {
+          "id": "informatica-42-b",
+          "text": "Un nuevo tipo de teclado"
+        },
+        {
+          "id": "informatica-42-c",
+          "text": "Una red social necesariamente"
+        }
+      ],
+      "correctOptionId": "informatica-42-a"
+    },
+    {
+      "id": "informatica-43",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué es el análisis de sistemas?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-43-a",
+          "text": "Analizar solamente los componentes físicos de una computadora"
+        },
+        {
+          "id": "informatica-43-b",
+          "text": "Estudiar necesidades y problemas para diseñar o mejorar sistemas de información que respondan a determinados requerimientos"
+        },
+        {
+          "id": "informatica-43-c",
+          "text": "Reparar dispositivos electrónicos"
+        }
+      ],
+      "correctOptionId": "informatica-43-b"
+    },
+    {
+      "id": "informatica-44",
+      "careerId": "carrera-informatica",
+      "text": "¿Por qué es importante conocer las necesidades de los usuarios antes de desarrollar un sistema?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-44-a",
+          "text": "Porque permite elegir el color del teclado"
+        },
+        {
+          "id": "informatica-44-b",
+          "text": "Porque ayuda a definir correctamente los requerimientos y diseñar una solución adecuada al problema que se busca resolver"
+        },
+        {
+          "id": "informatica-44-c",
+          "text": "Porque evita tener que realizar pruebas"
+        }
+      ],
+      "correctOptionId": "informatica-44-b"
+    },
+    {
+      "id": "informatica-45",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué es una interfaz de usuario?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-45-a",
+          "text": "Una placa madre"
+        },
+        {
+          "id": "informatica-45-b",
+          "text": "El medio mediante el cual una persona interactúa con un sistema o aplicación"
+        },
+        {
+          "id": "informatica-45-c",
+          "text": "Un servidor de Internet"
+        }
+      ],
+      "correctOptionId": "informatica-45-b"
+    },
+    {
+      "id": "informatica-46",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué característica debería tener un buen sistema informático?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-46-a",
+          "text": "Ser necesariamente complejo"
+        },
+        {
+          "id": "informatica-46-b",
+          "text": "Responder a las necesidades para las que fue diseñado y ser usable, seguro y confiable"
+        },
+        {
+          "id": "informatica-46-c",
+          "text": "Tener muchas funciones aunque ninguna sea necesaria"
+        }
+      ],
+      "correctOptionId": "informatica-46-b"
+    },
+    {
+      "id": "informatica-47",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué estudia principalmente la Licenciatura en Informática?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-47-a",
+          "text": "Conceptos, métodos y tecnologías vinculados con el desarrollo y gestión de sistemas informáticos y de información"
+        },
+        {
+          "id": "informatica-47-b",
+          "text": "Únicamente reparación de computadoras"
+        },
+        {
+          "id": "informatica-47-c",
+          "text": "Solamente diseño gráfico"
+        }
+      ],
+      "correctOptionId": "informatica-47-a"
+    },
+    {
+      "id": "informatica-48",
+      "careerId": "carrera-informatica",
+      "text": "¿Qué tipo de problemas puede ayudar a resolver un profesional de Informática?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-48-a",
+          "text": "Problemas relacionados con el procesamiento de información, sistemas, software, datos y tecnologías digitales"
+        },
+        {
+          "id": "informatica-48-b",
+          "text": "Únicamente problemas de conexión eléctrica"
+        },
+        {
+          "id": "informatica-48-c",
+          "text": "Exclusivamente problemas de fabricación industrial"
+        }
+      ],
+      "correctOptionId": "informatica-48-a"
+    },
+    {
+      "id": "informatica-49",
+      "careerId": "carrera-informatica",
+      "text": "Una persona estudia Informática y quiere desarrollar una aplicación para celulares. ¿Qué conocimientos podría necesitar?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-49-a",
+          "text": "Programación, bases de datos, diseño de interfaces, sistemas operativos y desarrollo de aplicaciones, entre otros"
+        },
+        {
+          "id": "informatica-49-b",
+          "text": "Únicamente conocimientos de mecanografía"
+        },
+        {
+          "id": "informatica-49-c",
+          "text": "Solamente conocimientos de fotografía"
+        }
+      ],
+      "correctOptionId": "informatica-49-a"
+    },
+    {
+      "id": "informatica-50",
+      "careerId": "carrera-informatica",
+      "text": "¿Cuál de estas situaciones representa mejor el trabajo de un profesional de Informática?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "informatica-50-a",
+          "text": "Analizar un problema, diseñar una solución tecnológica, desarrollarla, probarla y mejorarla junto con los usuarios y otros profesionales"
+        },
+        {
+          "id": "informatica-50-b",
+          "text": "Utilizar computadoras solamente para navegar por Internet"
+        },
+        {
+          "id": "informatica-50-c",
+          "text": "Reparar exclusivamente teclados y mouse"
+        }
+      ],
+      "correctOptionId": "informatica-50-a"
+    },
+    {
+      "id": "gestion-ambiental-01",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué estudia principalmente la Gestión Ambiental?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-01-a",
+          "text": "Solamente los animales silvestres"
+        },
+        {
+          "id": "gestion-ambiental-01-b",
+          "text": "La relación entre las actividades humanas y el ambiente, y las herramientas para gestionar sus impactos"
+        },
+        {
+          "id": "gestion-ambiental-01-c",
+          "text": "Únicamente el clima"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-01-b"
+    },
+    {
+      "id": "gestion-ambiental-02",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Cuál de estas carreras pertenece al área de Gestión Ambiental de la UNSAdA?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-02-a",
+          "text": "Ingeniería Zootecnista"
+        },
+        {
+          "id": "gestion-ambiental-02-b",
+          "text": "Tecnicatura Universitaria en Gestión Ambiental"
+        },
+        {
+          "id": "gestion-ambiental-02-c",
+          "text": "Analista en Informática"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-02-b"
+    },
+    {
+      "id": "gestion-ambiental-03",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Cuál de estas carreras también forma parte del área de Gestión Ambiental de la UNSAdA?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-03-a",
+          "text": "Licenciatura en Gestión Ambiental"
+        },
+        {
+          "id": "gestion-ambiental-03-b",
+          "text": "Tecnicatura Universitaria en Mantenimiento Industrial"
+        },
+        {
+          "id": "gestion-ambiental-03-c",
+          "text": "Licenciatura en Informática"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-03-a"
+    },
+    {
+      "id": "gestion-ambiental-04",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué es el ambiente?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-04-a",
+          "text": "Solamente los espacios naturales"
+        },
+        {
+          "id": "gestion-ambiental-04-b",
+          "text": "El conjunto de componentes naturales, sociales, culturales y económicos y sus interrelaciones"
+        },
+        {
+          "id": "gestion-ambiental-04-c",
+          "text": "Únicamente los recursos naturales"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-04-b"
+    },
+    {
+      "id": "gestion-ambiental-05",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué es un ecosistema?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-05-a",
+          "text": "Una ciudad"
+        },
+        {
+          "id": "gestion-ambiental-05-b",
+          "text": "Un sistema formado por organismos vivos y los componentes no vivos del ambiente, que interactúan entre sí"
+        },
+        {
+          "id": "gestion-ambiental-05-c",
+          "text": "Una especie animal"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-05-b"
+    },
+    {
+      "id": "gestion-ambiental-06",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué es la biodiversidad?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-06-a",
+          "text": "La cantidad de personas que viven en una ciudad"
+        },
+        {
+          "id": "gestion-ambiental-06-b",
+          "text": "La variedad de seres vivos, sus genes y los ecosistemas en los que se encuentran"
+        },
+        {
+          "id": "gestion-ambiental-06-c",
+          "text": "La cantidad de árboles de una plaza"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-06-b"
+    },
+    {
+      "id": "gestion-ambiental-07",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Cuál de estos es un recurso natural renovable?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-07-a",
+          "text": "Petróleo"
+        },
+        {
+          "id": "gestion-ambiental-07-b",
+          "text": "Energía solar"
+        },
+        {
+          "id": "gestion-ambiental-07-c",
+          "text": "Carbón"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-07-b"
+    },
+    {
+      "id": "gestion-ambiental-08",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Cuál de estos recursos es no renovable?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-08-a",
+          "text": "Viento"
+        },
+        {
+          "id": "gestion-ambiental-08-b",
+          "text": "Radiación solar"
+        },
+        {
+          "id": "gestion-ambiental-08-c",
+          "text": "Petróleo"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-08-c"
+    },
+    {
+      "id": "gestion-ambiental-09",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué es el cambio climático?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-09-a",
+          "text": "Un cambio de temperatura que ocurre solamente durante el día"
+        },
+        {
+          "id": "gestion-ambiental-09-b",
+          "text": "Una modificación significativa y sostenida de los patrones climáticos, asociada actualmente principalmente al aumento de gases de efecto invernadero por actividades humanas"
+        },
+        {
+          "id": "gestion-ambiental-09-c",
+          "text": "Un fenómeno que afecta únicamente a los océanos"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-09-b"
+    },
+    {
+      "id": "gestion-ambiental-10",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué gas de efecto invernadero se emite en grandes cantidades por actividades humanas?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-10-a",
+          "text": "Dióxido de carbono (CO₂)"
+        },
+        {
+          "id": "gestion-ambiental-10-b",
+          "text": "Helio"
+        },
+        {
+          "id": "gestion-ambiental-10-c",
+          "text": "Neón"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-10-a"
+    },
+    {
+      "id": "gestion-ambiental-11",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué es el efecto invernadero?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-11-a",
+          "text": "Un fenómeno exclusivamente artificial"
+        },
+        {
+          "id": "gestion-ambiental-11-b",
+          "text": "Un proceso natural por el cual ciertos gases de la atmósfera retienen parte de la energía térmica; su intensificación por actividades humanas contribuye al calentamiento global"
+        },
+        {
+          "id": "gestion-ambiental-11-c",
+          "text": "Un tipo de contaminación del agua"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-11-b"
+    },
+    {
+      "id": "gestion-ambiental-12",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué significa mitigar el cambio climático?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-12-a",
+          "text": "Adaptarse a cualquier cambio sin modificar actividades"
+        },
+        {
+          "id": "gestion-ambiental-12-b",
+          "text": "Reducir o limitar las emisiones de gases de efecto invernadero o aumentar su absorción/remoción"
+        },
+        {
+          "id": "gestion-ambiental-12-c",
+          "text": "Evitar que llueva"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-12-b"
+    },
+    {
+      "id": "gestion-ambiental-13",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué significa adaptación al cambio climático?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-13-a",
+          "text": "Reducir únicamente las emisiones industriales"
+        },
+        {
+          "id": "gestion-ambiental-13-b",
+          "text": "Realizar ajustes para reducir la vulnerabilidad frente a los efectos del cambio climático"
+        },
+        {
+          "id": "gestion-ambiental-13-c",
+          "text": "Eliminar todos los ecosistemas naturales"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-13-b"
+    },
+    {
+      "id": "gestion-ambiental-14",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué es la contaminación?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-14-a",
+          "text": "Cualquier modificación natural del ambiente"
+        },
+        {
+          "id": "gestion-ambiental-14-b",
+          "text": "La introducción de agentes o formas de energía que pueden producir efectos perjudiciales en el ambiente o la salud, según el contexto y la normativa aplicable"
+        },
+        {
+          "id": "gestion-ambiental-14-c",
+          "text": "Solamente la presencia de residuos sólidos"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-14-b"
+    },
+    {
+      "id": "gestion-ambiental-15",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Cuál de estos puede ser un contaminante del agua?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-15-a",
+          "text": "Metales pesados"
+        },
+        {
+          "id": "gestion-ambiental-15-b",
+          "text": "Oxígeno disuelto en concentraciones naturales"
+        },
+        {
+          "id": "gestion-ambiental-15-c",
+          "text": "Luz solar"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-15-a"
+    },
+    {
+      "id": "gestion-ambiental-16",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Por qué es importante proteger los cursos de agua?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-16-a",
+          "text": "Solamente porque tienen valor turístico"
+        },
+        {
+          "id": "gestion-ambiental-16-b",
+          "text": "Porque son fundamentales para los ecosistemas, las personas y numerosas actividades productivas"
+        },
+        {
+          "id": "gestion-ambiental-16-c",
+          "text": "Porque todos los cursos de agua contienen agua potable"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-16-b"
+    },
+    {
+      "id": "gestion-ambiental-17",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué es un residuo?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-17-a",
+          "text": "Todo material que necesariamente es inútil"
+        },
+        {
+          "id": "gestion-ambiental-17-b",
+          "text": "Un material, sustancia u objeto del cual su poseedor se desprende o tiene la intención u obligación de desprenderse, según el marco aplicable"
+        },
+        {
+          "id": "gestion-ambiental-17-c",
+          "text": "Solamente la basura domiciliaria"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-17-b"
+    },
+    {
+      "id": "gestion-ambiental-18",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Cuál es el orden de prioridad que propone la gestión integral de residuos?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-18-a",
+          "text": "Enterrar, quemar y después reciclar"
+        },
+        {
+          "id": "gestion-ambiental-18-b",
+          "text": "Prevenir o reducir, reutilizar, reciclar/valorizar y disponer adecuadamente lo que no puede aprovecharse"
+        },
+        {
+          "id": "gestion-ambiental-18-c",
+          "text": "Quemar todos los residuos"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-18-b"
+    },
+    {
+      "id": "gestion-ambiental-19",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué significa reciclar?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-19-a",
+          "text": "Tirar un residuo en cualquier contenedor"
+        },
+        {
+          "id": "gestion-ambiental-19-b",
+          "text": "Transformar residuos para obtener nuevos materiales o productos, mediante procesos adecuados"
+        },
+        {
+          "id": "gestion-ambiental-19-c",
+          "text": "Enterrar residuos"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-19-b"
+    },
+    {
+      "id": "gestion-ambiental-20",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué significa reutilizar?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-20-a",
+          "text": "Destruir un producto para fabricar otro"
+        },
+        {
+          "id": "gestion-ambiental-20-b",
+          "text": "Volver a utilizar un objeto o producto, para el mismo u otro uso, evitando que se convierta rápidamente en residuo"
+        },
+        {
+          "id": "gestion-ambiental-20-c",
+          "text": "Mezclar todos los residuos"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-20-b"
+    },
+    {
+      "id": "gestion-ambiental-21",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué son los residuos orgánicos?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-21-a",
+          "text": "Residuos provenientes exclusivamente de industrias"
+        },
+        {
+          "id": "gestion-ambiental-21-b",
+          "text": "Residuos biodegradables, como restos de alimentos y algunos restos vegetales"
+        },
+        {
+          "id": "gestion-ambiental-21-c",
+          "text": "Residuos que contienen metales pesados"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-21-b"
+    },
+    {
+      "id": "gestion-ambiental-22",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué proceso permite transformar residuos orgánicos en compost?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-22-a",
+          "text": "Combustión"
+        },
+        {
+          "id": "gestion-ambiental-22-b",
+          "text": "Compostaje"
+        },
+        {
+          "id": "gestion-ambiental-22-c",
+          "text": "Destilación"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-22-b"
+    },
+    {
+      "id": "gestion-ambiental-23",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué beneficio puede aportar el compost?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-23-a",
+          "text": "Contaminar necesariamente el suelo"
+        },
+        {
+          "id": "gestion-ambiental-23-b",
+          "text": "Aportar materia orgánica y nutrientes al suelo, cuando se produce y utiliza adecuadamente"
+        },
+        {
+          "id": "gestion-ambiental-23-c",
+          "text": "Reemplazar completamente el agua de riego"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-23-b"
+    },
+    {
+      "id": "gestion-ambiental-24",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué es la economía circular?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-24-a",
+          "text": "Un modelo basado exclusivamente en extraer, producir y descartar"
+        },
+        {
+          "id": "gestion-ambiental-24-b",
+          "text": "Un enfoque que busca mantener productos y materiales en uso durante el mayor tiempo posible y reducir residuos y uso de recursos"
+        },
+        {
+          "id": "gestion-ambiental-24-c",
+          "text": "Un sistema destinado únicamente a las industrias"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-24-b"
+    },
+    {
+      "id": "gestion-ambiental-25",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué es la huella de carbono?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-25-a",
+          "text": "La cantidad de árboles de una ciudad"
+        },
+        {
+          "id": "gestion-ambiental-25-b",
+          "text": "Una medida de las emisiones de gases de efecto invernadero asociadas a una actividad, producto, organización o persona, según el alcance considerado"
+        },
+        {
+          "id": "gestion-ambiental-25-c",
+          "text": "Una medición exclusiva de la contaminación del agua"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-25-b"
+    },
+    {
+      "id": "gestion-ambiental-26",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué acción puede contribuir a reducir la huella de carbono?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-26-a",
+          "text": "Aumentar innecesariamente el consumo energético"
+        },
+        {
+          "id": "gestion-ambiental-26-b",
+          "text": "Mejorar la eficiencia energética y utilizar fuentes de energía de menores emisiones cuando sea posible"
+        },
+        {
+          "id": "gestion-ambiental-26-c",
+          "text": "Incrementar el desperdicio de alimentos"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-26-b"
+    },
+    {
+      "id": "gestion-ambiental-27",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué es la energía renovable?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-27-a",
+          "text": "Energía producida exclusivamente a partir de petróleo"
+        },
+        {
+          "id": "gestion-ambiental-27-b",
+          "text": "Energía proveniente de fuentes que se regeneran naturalmente a una escala relevante para su aprovechamiento, como el sol o el viento"
+        },
+        {
+          "id": "gestion-ambiental-27-c",
+          "text": "Energía que nunca produce ningún impacto ambiental"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-27-b"
+    },
+    {
+      "id": "gestion-ambiental-28",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Cuál de estas es una fuente de energía renovable?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-28-a",
+          "text": "Carbón"
+        },
+        {
+          "id": "gestion-ambiental-28-b",
+          "text": "Gas natural"
+        },
+        {
+          "id": "gestion-ambiental-28-c",
+          "text": "Energía eólica"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-28-c"
+    },
+    {
+      "id": "gestion-ambiental-29",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué estudia la ecología?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-29-a",
+          "text": "Únicamente los animales"
+        },
+        {
+          "id": "gestion-ambiental-29-b",
+          "text": "Las relaciones de los organismos entre sí y con su ambiente"
+        },
+        {
+          "id": "gestion-ambiental-29-c",
+          "text": "Solamente la contaminación industrial"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-29-b"
+    },
+    {
+      "id": "gestion-ambiental-30",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué es una especie exótica invasora?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-30-a",
+          "text": "Una especie que siempre mejora un ecosistema"
+        },
+        {
+          "id": "gestion-ambiental-30-b",
+          "text": "Una especie introducida fuera de su área de distribución que puede establecerse y causar impactos negativos en los ecosistemas, especies o actividades humanas"
+        },
+        {
+          "id": "gestion-ambiental-30-c",
+          "text": "Una especie que solamente vive en zoológicos"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-30-b"
+    },
+    {
+      "id": "gestion-ambiental-31",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Por qué son importantes los bosques y otros ambientes naturales?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-31-a",
+          "text": "Solamente porque producen madera"
+        },
+        {
+          "id": "gestion-ambiental-31-b",
+          "text": "Porque brindan múltiples servicios ecosistémicos, como regulación climática, protección del suelo, hábitat y almacenamiento de carbono"
+        },
+        {
+          "id": "gestion-ambiental-31-c",
+          "text": "Porque impiden completamente las inundaciones"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-31-b"
+    },
+    {
+      "id": "gestion-ambiental-32",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué es un servicio ecosistémico?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-32-a",
+          "text": "Un servicio que presta una empresa ambiental"
+        },
+        {
+          "id": "gestion-ambiental-32-b",
+          "text": "Un beneficio que las personas obtienen de los ecosistemas, como provisión de agua, alimentos, regulación climática o recreación"
+        },
+        {
+          "id": "gestion-ambiental-32-c",
+          "text": "Una actividad turística exclusivamente"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-32-b"
+    },
+    {
+      "id": "gestion-ambiental-33",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué puede ocurrir cuando se elimina la vegetación de una zona?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-33-a",
+          "text": "El suelo siempre se vuelve más fértil"
+        },
+        {
+          "id": "gestion-ambiental-33-b",
+          "text": "Puede aumentar la erosión y disminuir la capacidad del suelo para retener agua, entre otros impactos"
+        },
+        {
+          "id": "gestion-ambiental-33-c",
+          "text": "No ocurre ningún cambio ambiental"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-33-b"
+    },
+    {
+      "id": "gestion-ambiental-34",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué es la erosión del suelo?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-34-a",
+          "text": "La incorporación de nutrientes al suelo"
+        },
+        {
+          "id": "gestion-ambiental-34-b",
+          "text": "El desprendimiento y transporte de partículas del suelo por agentes como el agua o el viento"
+        },
+        {
+          "id": "gestion-ambiental-34-c",
+          "text": "La formación de nuevas rocas"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-34-b"
+    },
+    {
+      "id": "gestion-ambiental-35",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Por qué es importante conservar los humedales?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-35-a",
+          "text": "Porque no cumplen ninguna función ambiental"
+        },
+        {
+          "id": "gestion-ambiental-35-b",
+          "text": "Porque brindan servicios ecosistémicos, como regulación hídrica, almacenamiento de carbono y hábitat para numerosas especies"
+        },
+        {
+          "id": "gestion-ambiental-35-c",
+          "text": "Porque producen exclusivamente agua potable"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-35-b"
+    },
+    {
+      "id": "gestion-ambiental-36",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué es el desarrollo sostenible?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-36-a",
+          "text": "Producir sin considerar las consecuencias ambientales"
+        },
+        {
+          "id": "gestion-ambiental-36-b",
+          "text": "Satisfacer las necesidades actuales procurando no comprometer la capacidad de las generaciones futuras para satisfacer las propias, considerando dimensiones ambientales, sociales y económicas"
+        },
+        {
+          "id": "gestion-ambiental-36-c",
+          "text": "Dejar de utilizar todos los recursos naturales"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-36-b"
+    },
+    {
+      "id": "gestion-ambiental-37",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué es una evaluación de impacto ambiental?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-37-a",
+          "text": "Una encuesta de opinión sobre un proyecto"
+        },
+        {
+          "id": "gestion-ambiental-37-b",
+          "text": "Un proceso destinado a identificar y evaluar posibles impactos ambientales de determinados proyectos antes de su ejecución, según el marco normativo aplicable"
+        },
+        {
+          "id": "gestion-ambiental-37-c",
+          "text": "Un análisis exclusivamente económico"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-37-b"
+    },
+    {
+      "id": "gestion-ambiental-38",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Para qué sirve identificar los impactos ambientales de un proyecto?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-38-a",
+          "text": "Para impedir automáticamente cualquier proyecto"
+        },
+        {
+          "id": "gestion-ambiental-38-b",
+          "text": "Para anticipar efectos potenciales y establecer medidas de prevención, mitigación, compensación o gestión cuando corresponda"
+        },
+        {
+          "id": "gestion-ambiental-38-c",
+          "text": "Únicamente para calcular su costo"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-38-b"
+    },
+    {
+      "id": "gestion-ambiental-39",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué es un área natural protegida?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-39-a",
+          "text": "Un espacio donde no puede ingresar ninguna persona"
+        },
+        {
+          "id": "gestion-ambiental-39-b",
+          "text": "Un área destinada a conservar valores naturales y/o culturales mediante objetivos y normas de manejo específicos"
+        },
+        {
+          "id": "gestion-ambiental-39-c",
+          "text": "Un área destinada exclusivamente a la producción agrícola"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-39-b"
+    },
+    {
+      "id": "gestion-ambiental-40",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué profesional puede participar en la elaboración de planes de gestión ambiental?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-40-a",
+          "text": "Un/a profesional de Gestión Ambiental, junto con equipos interdisciplinarios según el proyecto"
+        },
+        {
+          "id": "gestion-ambiental-40-b",
+          "text": "Solamente un/a diseñador/a gráfico/a"
+        },
+        {
+          "id": "gestion-ambiental-40-c",
+          "text": "Únicamente un/a programador/a"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-40-a"
+    },
+    {
+      "id": "gestion-ambiental-41",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "Una empresa quiere reducir la cantidad de residuos que genera. ¿Qué debería hacer primero?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-41-a",
+          "text": "Comprar más contenedores sin analizar el problema"
+        },
+        {
+          "id": "gestion-ambiental-41-b",
+          "text": "Analizar qué residuos genera, en qué cantidades y cómo se generan, para identificar oportunidades de prevención y reducción"
+        },
+        {
+          "id": "gestion-ambiental-41-c",
+          "text": "Enviar todos los residuos a un relleno sanitario"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-41-b"
+    },
+    {
+      "id": "gestion-ambiental-42",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "Si una industria descarga efluentes líquidos, ¿qué debería controlar un profesional ambiental?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-42-a",
+          "text": "Solamente el color del agua"
+        },
+        {
+          "id": "gestion-ambiental-42-b",
+          "text": "Las características del efluente, los posibles contaminantes, el tratamiento y el cumplimiento de la normativa aplicable"
+        },
+        {
+          "id": "gestion-ambiental-42-c",
+          "text": "Únicamente la temperatura exterior"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-42-b"
+    },
+    {
+      "id": "gestion-ambiental-43",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué es un efluente?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-43-a",
+          "text": "Un tipo de residuo sólido exclusivamente"
+        },
+        {
+          "id": "gestion-ambiental-43-b",
+          "text": "Un líquido que sale de un proceso, instalación o actividad y que puede requerir tratamiento y control antes de su descarga o disposición"
+        },
+        {
+          "id": "gestion-ambiental-43-c",
+          "text": "Una especie vegetal"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-43-b"
+    },
+    {
+      "id": "gestion-ambiental-44",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué es el monitoreo ambiental?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-44-a",
+          "text": "Observar el ambiente únicamente a simple vista"
+        },
+        {
+          "id": "gestion-ambiental-44-b",
+          "text": "Realizar mediciones y observaciones sistemáticas de variables ambientales para conocer su evolución y detectar cambios"
+        },
+        {
+          "id": "gestion-ambiental-44-c",
+          "text": "Sacar fotografías de paisajes"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-44-b"
+    },
+    {
+      "id": "gestion-ambiental-45",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Por qué un profesional ambiental necesita conocer la legislación ambiental?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-45-a",
+          "text": "Porque la legislación reemplaza los conocimientos científicos"
+        },
+        {
+          "id": "gestion-ambiental-45-b",
+          "text": "Porque debe conocer las normas y requisitos aplicables para planificar, evaluar y gestionar actividades de manera adecuada"
+        },
+        {
+          "id": "gestion-ambiental-45-c",
+          "text": "Porque todas las leyes ambientales son iguales en todos los países"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-45-b"
+    },
+    {
+      "id": "gestion-ambiental-46",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Qué herramienta puede utilizarse para analizar información geográfica y ambiental?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-46-a",
+          "text": "Sistemas de Información Geográfica (SIG)"
+        },
+        {
+          "id": "gestion-ambiental-46-b",
+          "text": "Una calculadora únicamente"
+        },
+        {
+          "id": "gestion-ambiental-46-c",
+          "text": "Un reproductor de música"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-46-a"
+    },
+    {
+      "id": "gestion-ambiental-47",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Para qué puede utilizarse un SIG en Gestión Ambiental?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-47-a",
+          "text": "Para editar videos"
+        },
+        {
+          "id": "gestion-ambiental-47-b",
+          "text": "Para analizar y representar espacialmente información ambiental, como usos del suelo, áreas protegidas, cursos de agua o fuentes de contaminación"
+        },
+        {
+          "id": "gestion-ambiental-47-c",
+          "text": "Para medir directamente la calidad del aire sin sensores"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-47-b"
+    },
+    {
+      "id": "gestion-ambiental-48",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "Una ciudad quiere reducir el riesgo de inundaciones. ¿Qué debería analizar un equipo ambiental?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-48-a",
+          "text": "Únicamente la cantidad de habitantes"
+        },
+        {
+          "id": "gestion-ambiental-48-b",
+          "text": "El sistema de drenaje, cursos de agua, características del territorio, ocupación del suelo, precipitaciones y otros factores relevantes"
+        },
+        {
+          "id": "gestion-ambiental-48-c",
+          "text": "Solamente la cantidad de vehículos"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-48-b"
+    },
+    {
+      "id": "gestion-ambiental-49",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "¿Dónde puede trabajar un/a profesional de Gestión Ambiental?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-49-a",
+          "text": "Solamente en reservas naturales"
+        },
+        {
+          "id": "gestion-ambiental-49-b",
+          "text": "En organismos públicos, empresas, consultoras, organizaciones, proyectos productivos y equipos interdisciplinarios, entre otros ámbitos"
+        },
+        {
+          "id": "gestion-ambiental-49-c",
+          "text": "Únicamente en laboratorios"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-49-b"
+    },
+    {
+      "id": "gestion-ambiental-50",
+      "careerId": "carrera-gestion-ambiental",
+      "text": "Si te interesa la naturaleza, pero también la producción, las ciudades, las empresas y la búsqueda de soluciones a problemas ambientales, ¿qué carrera podrías estudiar?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "gestion-ambiental-50-a",
+          "text": "Tecnicatura Universitaria en Gestión Ambiental o Licenciatura en Gestión Ambiental de la UNSAdA"
+        },
+        {
+          "id": "gestion-ambiental-50-b",
+          "text": "Únicamente Ingeniería Zootecnista"
+        },
+        {
+          "id": "gestion-ambiental-50-c",
+          "text": "Únicamente Analista en Informática"
+        }
+      ],
+      "correctOptionId": "gestion-ambiental-50-a"
+    },
+    {
+      "id": "mantenimiento-01",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué busca principalmente el mantenimiento industrial?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-01-a",
+          "text": "Reemplazar todas las máquinas de una fábrica"
+        },
+        {
+          "id": "mantenimiento-01-b",
+          "text": "Mantener los equipos e instalaciones funcionando de manera segura, confiable y eficiente"
+        },
+        {
+          "id": "mantenimiento-01-c",
+          "text": "Aumentar únicamente la cantidad de trabajadores"
+        }
+      ],
+      "correctOptionId": "mantenimiento-01-b"
+    },
+    {
+      "id": "mantenimiento-02",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Cuál de estas tareas puede realizar un/a técnico/a en mantenimiento industrial?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-02-a",
+          "text": "Diseñar campañas publicitarias"
+        },
+        {
+          "id": "mantenimiento-02-b",
+          "text": "Detectar fallas, realizar mantenimiento y colaborar en la puesta en funcionamiento de equipos"
+        },
+        {
+          "id": "mantenimiento-02-c",
+          "text": "Elaborar únicamente planos arquitectónicos"
+        }
+      ],
+      "correctOptionId": "mantenimiento-02-b"
+    },
+    {
+      "id": "mantenimiento-03",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué es el mantenimiento preventivo?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-03-a",
+          "text": "Reparar una máquina solamente cuando deja de funcionar"
+        },
+        {
+          "id": "mantenimiento-03-b",
+          "text": "Realizar tareas planificadas para reducir la probabilidad de fallas antes de que ocurran"
+        },
+        {
+          "id": "mantenimiento-03-c",
+          "text": "Reemplazar todas las máquinas cada año"
+        }
+      ],
+      "correctOptionId": "mantenimiento-03-b"
+    },
+    {
+      "id": "mantenimiento-04",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué es el mantenimiento correctivo?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-04-a",
+          "text": "Una inspección realizada antes de instalar una máquina"
+        },
+        {
+          "id": "mantenimiento-04-b",
+          "text": "La reparación de un equipo después de detectar una falla o avería"
+        },
+        {
+          "id": "mantenimiento-04-c",
+          "text": "Una técnica de limpieza industrial"
+        }
+      ],
+      "correctOptionId": "mantenimiento-04-b"
+    },
+    {
+      "id": "mantenimiento-05",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué es el mantenimiento predictivo?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-05-a",
+          "text": "Reparar siempre las máquinas los lunes"
+        },
+        {
+          "id": "mantenimiento-05-b",
+          "text": "Utilizar mediciones y datos para anticipar posibles fallas y planificar intervenciones"
+        },
+        {
+          "id": "mantenimiento-05-c",
+          "text": "Reemplazar una máquina aunque funcione correctamente"
+        }
+      ],
+      "correctOptionId": "mantenimiento-05-b"
+    },
+    {
+      "id": "mantenimiento-06",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Cuál de estos parámetros puede utilizarse para detectar problemas en una máquina?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-06-a",
+          "text": "El color de la máquina"
+        },
+        {
+          "id": "mantenimiento-06-b",
+          "text": "La vibración, temperatura, ruido o consumo eléctrico, entre otros parámetros"
+        },
+        {
+          "id": "mantenimiento-06-c",
+          "text": "El nombre del fabricante únicamente"
+        }
+      ],
+      "correctOptionId": "mantenimiento-06-b"
+    },
+    {
+      "id": "mantenimiento-07",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué herramienta permite medir una longitud con precisión?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-07-a",
+          "text": "Martillo"
+        },
+        {
+          "id": "mantenimiento-07-b",
+          "text": "Calibre"
+        },
+        {
+          "id": "mantenimiento-07-c",
+          "text": "Llave inglesa"
+        }
+      ],
+      "correctOptionId": "mantenimiento-07-b"
+    },
+    {
+      "id": "mantenimiento-08",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Para qué sirve un multímetro?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-08-a",
+          "text": "Para levantar objetos pesados"
+        },
+        {
+          "id": "mantenimiento-08-b",
+          "text": "Para realizar distintas mediciones eléctricas, como tensión, corriente y resistencia, según el instrumento y su configuración"
+        },
+        {
+          "id": "mantenimiento-08-c",
+          "text": "Para lubricar motores"
+        }
+      ],
+      "correctOptionId": "mantenimiento-08-b"
+    },
+    {
+      "id": "mantenimiento-09",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué unidad se utiliza para medir la tensión eléctrica?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-09-a",
+          "text": "Watt"
+        },
+        {
+          "id": "mantenimiento-09-b",
+          "text": "Volt"
+        },
+        {
+          "id": "mantenimiento-09-c",
+          "text": "Ohm"
+        }
+      ],
+      "correctOptionId": "mantenimiento-09-b"
+    },
+    {
+      "id": "mantenimiento-10",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué unidad se utiliza para medir la corriente eléctrica?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-10-a",
+          "text": "Ampere (A)"
+        },
+        {
+          "id": "mantenimiento-10-b",
+          "text": "Volt"
+        },
+        {
+          "id": "mantenimiento-10-c",
+          "text": "Newton"
+        }
+      ],
+      "correctOptionId": "mantenimiento-10-a"
+    },
+    {
+      "id": "mantenimiento-11",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué unidad se utiliza para medir la resistencia eléctrica?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-11-a",
+          "text": "Watt"
+        },
+        {
+          "id": "mantenimiento-11-b",
+          "text": "Volt"
+        },
+        {
+          "id": "mantenimiento-11-c",
+          "text": "Ohm (Ω)"
+        }
+      ],
+      "correctOptionId": "mantenimiento-11-c"
+    },
+    {
+      "id": "mantenimiento-12",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué unidad se utiliza para medir potencia eléctrica?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-12-a",
+          "text": "Metro"
+        },
+        {
+          "id": "mantenimiento-12-b",
+          "text": "Watt (W)"
+        },
+        {
+          "id": "mantenimiento-12-c",
+          "text": "Ampere por hora"
+        }
+      ],
+      "correctOptionId": "mantenimiento-12-b"
+    },
+    {
+      "id": "mantenimiento-13",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué ocurre cuando un circuito eléctrico está abierto?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-13-a",
+          "text": "La corriente circula normalmente"
+        },
+        {
+          "id": "mantenimiento-13-b",
+          "text": "El circuito queda interrumpido y no circula corriente por ese camino"
+        },
+        {
+          "id": "mantenimiento-13-c",
+          "text": "La tensión desaparece de toda la instalación necesariamente"
+        }
+      ],
+      "correctOptionId": "mantenimiento-13-b"
+    },
+    {
+      "id": "mantenimiento-14",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué función cumple un fusible?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-14-a",
+          "text": "Aumentar la tensión"
+        },
+        {
+          "id": "mantenimiento-14-b",
+          "text": "Proteger un circuito frente a determinadas sobre corrientes, interrumpiéndolo cuando se supera su valor de actuación"
+        },
+        {
+          "id": "mantenimiento-14-c",
+          "text": "Aumentar la velocidad de un motor"
+        }
+      ],
+      "correctOptionId": "mantenimiento-14-b"
+    },
+    {
+      "id": "mantenimiento-15",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Para qué sirve una puesta a tierra?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-15-a",
+          "text": "Para aumentar el consumo eléctrico"
+        },
+        {
+          "id": "mantenimiento-15-b",
+          "text": "Para proporcionar un camino de protección frente a corrientes de falla y reducir riesgos eléctricos, según el sistema de instalación"
+        },
+        {
+          "id": "mantenimiento-15-c",
+          "text": "Para hacer funcionar un motor más rápido"
+        }
+      ],
+      "correctOptionId": "mantenimiento-15-b"
+    },
+    {
+      "id": "mantenimiento-16",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué es un motor eléctrico?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-16-a",
+          "text": "Un dispositivo que transforma energía mecánica en combustible"
+        },
+        {
+          "id": "mantenimiento-16-b",
+          "text": "Una máquina que transforma energía eléctrica en energía mecánica"
+        },
+        {
+          "id": "mantenimiento-16-c",
+          "text": "Un instrumento para medir temperatura"
+        }
+      ],
+      "correctOptionId": "mantenimiento-16-b"
+    },
+    {
+      "id": "mantenimiento-17",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Dónde podemos encontrar motores eléctricos en una industria?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-17-a",
+          "text": "Solamente en oficinas"
+        },
+        {
+          "id": "mantenimiento-17-b",
+          "text": "En bombas, ventiladores, cintas transportadoras, compresores y muchas otras máquinas"
+        },
+        {
+          "id": "mantenimiento-17-c",
+          "text": "Únicamente en vehículos"
+        }
+      ],
+      "correctOptionId": "mantenimiento-17-b"
+    },
+    {
+      "id": "mantenimiento-18",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué función cumple una bomba?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-18-a",
+          "text": "Medir la temperatura"
+        },
+        {
+          "id": "mantenimiento-18-b",
+          "text": "Impulsar o transportar un fluido, como agua o aceite, mediante la generación de un flujo y/o presión"
+        },
+        {
+          "id": "mantenimiento-18-c",
+          "text": "Transformar electricidad en luz exclusivamente"
+        }
+      ],
+      "correctOptionId": "mantenimiento-18-b"
+    },
+    {
+      "id": "mantenimiento-19",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué es un compresor?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-19-a",
+          "text": "Una herramienta para cortar metal"
+        },
+        {
+          "id": "mantenimiento-19-b",
+          "text": "Una máquina que comprime un gas, aumentando su presión en el proceso"
+        },
+        {
+          "id": "mantenimiento-19-c",
+          "text": "Un dispositivo para medir voltaje"
+        }
+      ],
+      "correctOptionId": "mantenimiento-19-b"
+    },
+    {
+      "id": "mantenimiento-20",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué función cumple un rodamiento?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-20-a",
+          "text": "Generar electricidad"
+        },
+        {
+          "id": "mantenimiento-20-b",
+          "text": "Facilitar el movimiento relativo y reducir la fricción entre componentes, como ejes y soportes"
+        },
+        {
+          "id": "mantenimiento-20-c",
+          "text": "Aumentar la temperatura de una máquina"
+        }
+      ],
+      "correctOptionId": "mantenimiento-20-b"
+    },
+    {
+      "id": "mantenimiento-21",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Por qué es importante lubricar correctamente una máquina?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-21-a",
+          "text": "Para que pese menos"
+        },
+        {
+          "id": "mantenimiento-21-b",
+          "text": "Para reducir fricción y desgaste y contribuir al correcto funcionamiento de los componentes"
+        },
+        {
+          "id": "mantenimiento-21-c",
+          "text": "Para aumentar el ruido de funcionamiento"
+        }
+      ],
+      "correctOptionId": "mantenimiento-21-b"
+    },
+    {
+      "id": "mantenimiento-22",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué puede indicar una vibración anormal en una máquina?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-22-a",
+          "text": "Que la máquina funciona necesariamente mejor"
+        },
+        {
+          "id": "mantenimiento-22-b",
+          "text": "Puede indicar problemas como desbalanceo, desalineación, desgaste o fallas en componentes, según el caso"
+        },
+        {
+          "id": "mantenimiento-22-c",
+          "text": "Que la máquina necesita más pintura"
+        }
+      ],
+      "correctOptionId": "mantenimiento-22-b"
+    },
+    {
+      "id": "mantenimiento-23",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué significa alinear dos ejes?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-23-a",
+          "text": "Pintarlos del mismo color"
+        },
+        {
+          "id": "mantenimiento-23-b",
+          "text": "Posicionarlos correctamente respecto de sus líneas de centro para permitir un funcionamiento adecuado de la transmisión"
+        },
+        {
+          "id": "mantenimiento-23-c",
+          "text": "Conectarlos siempre mediante electricidad"
+        }
+      ],
+      "correctOptionId": "mantenimiento-23-b"
+    },
+    {
+      "id": "mantenimiento-24",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué es una transmisión mecánica?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-24-a",
+          "text": "Un tipo de señal de radio"
+        },
+        {
+          "id": "mantenimiento-24-b",
+          "text": "Un sistema que permite transmitir movimiento y potencia entre componentes, mediante elementos como engranajes, correas o cadenas"
+        },
+        {
+          "id": "mantenimiento-24-c",
+          "text": "Una instalación eléctrica"
+        }
+      ],
+      "correctOptionId": "mantenimiento-24-b"
+    },
+    {
+      "id": "mantenimiento-25",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué elemento se utiliza habitualmente para transmitir movimiento entre dos ejes mediante una correa?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-25-a",
+          "text": "Polea"
+        },
+        {
+          "id": "mantenimiento-25-b",
+          "text": "Fusible"
+        },
+        {
+          "id": "mantenimiento-25-c",
+          "text": "Termocupla"
+        }
+      ],
+      "correctOptionId": "mantenimiento-25-a"
+    },
+    {
+      "id": "mantenimiento-26",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué función cumple un engranaje?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-26-a",
+          "text": "Medir corriente eléctrica"
+        },
+        {
+          "id": "mantenimiento-26-b",
+          "text": "Transmitir movimiento y potencia entre ejes mediante dientes que engranan entre sí"
+        },
+        {
+          "id": "mantenimiento-26-c",
+          "text": "Enfriar un motor"
+        }
+      ],
+      "correctOptionId": "mantenimiento-26-b"
+    },
+    {
+      "id": "mantenimiento-27",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué es la neumática?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-27-a",
+          "text": "El estudio de los motores eléctricos"
+        },
+        {
+          "id": "mantenimiento-27-b",
+          "text": "La utilización de aire comprimido para transmitir y controlar energía en sistemas y mecanismos"
+        },
+        {
+          "id": "mantenimiento-27-c",
+          "text": "Una técnica de soldadura"
+        }
+      ],
+      "correctOptionId": "mantenimiento-27-b"
+    },
+    {
+      "id": "mantenimiento-28",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué es la hidráulica?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-28-a",
+          "text": "El uso de electricidad para generar luz"
+        },
+        {
+          "id": "mantenimiento-28-b",
+          "text": "La transmisión y control de energía mediante fluidos, generalmente líquidos a presión"
+        },
+        {
+          "id": "mantenimiento-28-c",
+          "text": "El estudio de los metales"
+        }
+      ],
+      "correctOptionId": "mantenimiento-28-b"
+    },
+    {
+      "id": "mantenimiento-29",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Cuál es una ventaja habitual de los sistemas hidráulicos?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-29-a",
+          "text": "No requieren ningún tipo de mantenimiento"
+        },
+        {
+          "id": "mantenimiento-29-b",
+          "text": "Pueden transmitir grandes fuerzas mediante fluidos presurizados"
+        },
+        {
+          "id": "mantenimiento-29-c",
+          "text": "Funcionan sin ningún tipo de energía"
+        }
+      ],
+      "correctOptionId": "mantenimiento-29-b"
+    },
+    {
+      "id": "mantenimiento-30",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué es un sensor?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-30-a",
+          "text": "Una herramienta exclusivamente mecánica"
+        },
+        {
+          "id": "mantenimiento-30-b",
+          "text": "Un dispositivo que detecta o mide una magnitud física y proporciona una señal relacionada con ella"
+        },
+        {
+          "id": "mantenimiento-30-c",
+          "text": "Un tipo de tornillo"
+        }
+      ],
+      "correctOptionId": "mantenimiento-30-b"
+    },
+    {
+      "id": "mantenimiento-31",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Cuál de estos puede ser un sensor utilizado en una máquina industrial?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-31-a",
+          "text": "Sensor de temperatura"
+        },
+        {
+          "id": "mantenimiento-31-b",
+          "text": "Martillo"
+        },
+        {
+          "id": "mantenimiento-31-c",
+          "text": "Llave fija"
+        }
+      ],
+      "correctOptionId": "mantenimiento-31-a"
+    },
+    {
+      "id": "mantenimiento-32",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué función puede cumplir un sensor de proximidad?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-32-a",
+          "text": "Lubricar un rodamiento"
+        },
+        {
+          "id": "mantenimiento-32-b",
+          "text": "Detectar la presencia o proximidad de un objeto sin necesidad de contacto físico, según la tecnología utilizada"
+        },
+        {
+          "id": "mantenimiento-32-c",
+          "text": "Medir exclusivamente la humedad del aire"
+        }
+      ],
+      "correctOptionId": "mantenimiento-32-b"
+    },
+    {
+      "id": "mantenimiento-33",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué es la automatización industrial?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-33-a",
+          "text": "Hacer que todas las tareas sean manuales"
+        },
+        {
+          "id": "mantenimiento-33-b",
+          "text": "Utilizar sistemas de control y tecnología para ejecutar procesos con menor intervención manual y de forma programada o supervisada"
+        },
+        {
+          "id": "mantenimiento-33-c",
+          "text": "Reemplazar todas las herramientas por robots"
+        }
+      ],
+      "correctOptionId": "mantenimiento-33-b"
+    },
+    {
+      "id": "mantenimiento-34",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué significa PLC?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-34-a",
+          "text": "Programa Laboral de Control"
+        },
+        {
+          "id": "mantenimiento-34-b",
+          "text": "Controlador Lógico Programable (Programmable Logic Controller)"
+        },
+        {
+          "id": "mantenimiento-34-c",
+          "text": "Protección Lineal de Corriente"
+        }
+      ],
+      "correctOptionId": "mantenimiento-34-b"
+    },
+    {
+      "id": "mantenimiento-35",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Para qué se utiliza un PLC en una industria?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-35-a",
+          "text": "Para pintar máquinas"
+        },
+        {
+          "id": "mantenimiento-35-b",
+          "text": "Para controlar y automatizar procesos mediante entradas, lógica de control y salidas programadas"
+        },
+        {
+          "id": "mantenimiento-35-c",
+          "text": "Para medir únicamente la presión de los neumáticos"
+        }
+      ],
+      "correctOptionId": "mantenimiento-35-b"
+    },
+    {
+      "id": "mantenimiento-36",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué es la instrumentación industrial?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-36-a",
+          "text": "El conjunto de herramientas manuales de un taller"
+        },
+        {
+          "id": "mantenimiento-36-b",
+          "text": "El conjunto de instrumentos y técnicas utilizados para medir, controlar y supervisar variables de los procesos industriales"
+        },
+        {
+          "id": "mantenimiento-36-c",
+          "text": "El diseño de edificios industriales"
+        }
+      ],
+      "correctOptionId": "mantenimiento-36-b"
+    },
+    {
+      "id": "mantenimiento-37",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué variable puede medir un instrumento industrial?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-37-a",
+          "text": "Presión"
+        },
+        {
+          "id": "mantenimiento-37-b",
+          "text": "Color de una pared únicamente"
+        },
+        {
+          "id": "mantenimiento-37-c",
+          "text": "Marca del fabricante"
+        }
+      ],
+      "correctOptionId": "mantenimiento-37-a"
+    },
+    {
+      "id": "mantenimiento-38",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué instrumento se utiliza para medir temperatura?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-38-a",
+          "text": "Termómetro o sensor de temperatura"
+        },
+        {
+          "id": "mantenimiento-38-b",
+          "text": "Manómetro"
+        },
+        {
+          "id": "mantenimiento-38-c",
+          "text": "Calibre"
+        }
+      ],
+      "correctOptionId": "mantenimiento-38-a"
+    },
+    {
+      "id": "mantenimiento-39",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué instrumento se utiliza habitualmente para medir presión?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-39-a",
+          "text": "Multímetro"
+        },
+        {
+          "id": "mantenimiento-39-b",
+          "text": "Manómetro"
+        },
+        {
+          "id": "mantenimiento-39-c",
+          "text": "Micrómetro"
+        }
+      ],
+      "correctOptionId": "mantenimiento-39-b"
+    },
+    {
+      "id": "mantenimiento-40",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué es la seguridad industrial?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-40-a",
+          "text": "Una actividad que solamente realiza el área de recursos humanos"
+        },
+        {
+          "id": "mantenimiento-40-b",
+          "text": "El conjunto de medidas destinadas a prevenir accidentes, incidentes y daños durante las actividades de trabajo"
+        },
+        {
+          "id": "mantenimiento-40-c",
+          "text": "El mantenimiento de las computadoras de una empresa"
+        }
+      ],
+      "correctOptionId": "mantenimiento-40-b"
+    },
+    {
+      "id": "mantenimiento-41",
+      "careerId": "carrera-mantenimiento",
+      "text": "Antes de realizar una reparación en una máquina, ¿qué debería hacer un técnico?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-41-a",
+          "text": "Comenzar inmediatamente a desmontarla"
+        },
+        {
+          "id": "mantenimiento-41-b",
+          "text": "Identificar los riesgos y aplicar los procedimientos de seguridad correspondientes, incluyendo el aislamiento de energías cuando corresponda"
+        },
+        {
+          "id": "mantenimiento-41-c",
+          "text": "Encender la máquina para comprobar si funciona"
+        }
+      ],
+      "correctOptionId": "mantenimiento-41-b"
+    },
+    {
+      "id": "mantenimiento-42",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué es el bloqueo y etiquetado de energías (LOTO)?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-42-a",
+          "text": "Un método para lubricar máquinas"
+        },
+        {
+          "id": "mantenimiento-42-b",
+          "text": "Un procedimiento de seguridad para aislar fuentes de energía y evitar una puesta en marcha inesperada durante una intervención"
+        },
+        {
+          "id": "mantenimiento-42-c",
+          "text": "Una técnica para aumentar la potencia de un motor"
+        }
+      ],
+      "correctOptionId": "mantenimiento-42-b"
+    },
+    {
+      "id": "mantenimiento-43",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Por qué es importante utilizar elementos de protección personal (EPP)?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-43-a",
+          "text": "Para trabajar más rápido"
+        },
+        {
+          "id": "mantenimiento-43-b",
+          "text": "Para reducir la exposición a determinados riesgos presentes durante una tarea, como parte de un sistema integral de seguridad"
+        },
+        {
+          "id": "mantenimiento-43-c",
+          "text": "Para evitar realizar mantenimiento preventivo"
+        }
+      ],
+      "correctOptionId": "mantenimiento-43-b"
+    },
+    {
+      "id": "mantenimiento-44",
+      "careerId": "carrera-mantenimiento",
+      "text": "Una máquina comienza a hacer un ruido extraño. ¿Qué debería hacer un técnico?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-44-a",
+          "text": "Ignorarlo hasta que se rompa"
+        },
+        {
+          "id": "mantenimiento-44-b",
+          "text": "Investigar la causa mediante inspección y mediciones apropiadas y determinar si requiere intervención"
+        },
+        {
+          "id": "mantenimiento-44-c",
+          "text": "Aumentar la velocidad de la máquina"
+        }
+      ],
+      "correctOptionId": "mantenimiento-44-b"
+    },
+    {
+      "id": "mantenimiento-45",
+      "careerId": "carrera-mantenimiento",
+      "text": "Una máquina se detiene inesperadamente. ¿Cuál debería ser el primer enfoque?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-45-a",
+          "text": "Golpear la máquina para que vuelva a funcionar"
+        },
+        {
+          "id": "mantenimiento-45-b",
+          "text": "Analizar la falla de manera segura y sistemática para identificar su causa antes de intervenir"
+        },
+        {
+          "id": "mantenimiento-45-c",
+          "text": "Cambiar inmediatamente todas sus piezas"
+        }
+      ],
+      "correctOptionId": "mantenimiento-45-b"
+    },
+    {
+      "id": "mantenimiento-46",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Qué es un plano técnico?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-46-a",
+          "text": "Un dibujo realizado solamente con fines decorativos"
+        },
+        {
+          "id": "mantenimiento-46-b",
+          "text": "Una representación gráfica normalizada que comunica información técnica sobre una pieza, máquina o instalación"
+        },
+        {
+          "id": "mantenimiento-46-c",
+          "text": "Una fotografía de una máquina"
+        }
+      ],
+      "correctOptionId": "mantenimiento-46-b"
+    },
+    {
+      "id": "mantenimiento-47",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Por qué un técnico en mantenimiento necesita interpretar planos?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-47-a",
+          "text": "Para aprender a dibujar paisajes"
+        },
+        {
+          "id": "mantenimiento-47-b",
+          "text": "Para comprender componentes, dimensiones, conexiones, instalaciones y sistemas antes de intervenir sobre ellos"
+        },
+        {
+          "id": "mantenimiento-47-c",
+          "text": "Para calcular salarios"
+        }
+      ],
+      "correctOptionId": "mantenimiento-47-b"
+    },
+    {
+      "id": "mantenimiento-48",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Dónde puede trabajar un/a Técnico/a Universitario/a en Mantenimiento Industrial?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-48-a",
+          "text": "Solamente en talleres mecánicos"
+        },
+        {
+          "id": "mantenimiento-48-b",
+          "text": "En industrias, plantas productivas, empresas de servicios, talleres, áreas de mantenimiento y otros ámbitos relacionados con instalaciones y equipos"
+        },
+        {
+          "id": "mantenimiento-48-c",
+          "text": "Exclusivamente en oficinas administrativas"
+        }
+      ],
+      "correctOptionId": "mantenimiento-48-b"
+    },
+    {
+      "id": "mantenimiento-49",
+      "careerId": "carrera-mantenimiento",
+      "text": "Una fábrica quiere reducir las paradas inesperadas de sus máquinas. ¿Qué estrategia puede implementar?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-49-a",
+          "text": "Esperar a que todas las máquinas fallen"
+        },
+        {
+          "id": "mantenimiento-49-b",
+          "text": "Implementar un programa de mantenimiento preventivo y predictivo basado en inspecciones, datos y planificación"
+        },
+        {
+          "id": "mantenimiento-49-c",
+          "text": "Apagar las máquinas todos los días"
+        }
+      ],
+      "correctOptionId": "mantenimiento-49-b"
+    },
+    {
+      "id": "mantenimiento-50",
+      "careerId": "carrera-mantenimiento",
+      "text": "¿Cuál de estas situaciones representa mejor el trabajo de un/a Técnico/a en Mantenimiento Industrial?",
+      "timeLimitSeconds": 20,
+      "options": [
+        {
+          "id": "mantenimiento-50-a",
+          "text": "Diagnosticar problemas, mantener equipos, realizar reparaciones, controlar instalaciones y contribuir a que los procesos funcionen de manera segura y confiable"
+        },
+        {
+          "id": "mantenimiento-50-b",
+          "text": "Utilizar máquinas únicamente para producir más rápido"
+        },
+        {
+          "id": "mantenimiento-50-c",
+          "text": "Reparar exclusivamente computadoras personales"
+        }
+      ],
+      "correctOptionId": "mantenimiento-50-a"
+    }
+  ]
+}
