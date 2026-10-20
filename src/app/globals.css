@@ -1,10 +1,17 @@
+﻿
 @import "tailwindcss";
 
 @theme {
   --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
-  --color-ink: #1c1915;
-  --color-paper: #f3eee4;
-  --color-card: #fffaf3;
-  --color-line: #e3d8c8;
-  --color-accent: #9a3412;
+  --font-sans: Arial, Helvetica, sans-serif;
+
+  --color-ink: #172536;
+  --color-paper: #f0eee8;
+  --color-card: #ffffff;
+  --color-line: #dce2e9;
+  --color-accent: #a47d32;
+  --color-navy: #15324b;
+  --color-gold: #c5a45b;
+  --color-muted: #465467;
 }
+
