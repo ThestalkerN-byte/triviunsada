@@ -107,6 +107,7 @@ export function PlayPanel() {
     getBankServerSnapshot,
   );
   const [session, setSession] = useState<Session>({ status: "idle" });
+  const [questionCount, setQuestionCount] = useState(5);
   const [sessionCareerId, setSessionCareerId] = useState(careerId);
   const [now, setNow] = useState(0);
   const [startError, setStartError] = useState<string | null>(null);
@@ -140,18 +141,27 @@ export function PlayPanel() {
     router.replace(query ? `${pathname}?${query}` : pathname, { scroll: false });
   }
 
-  function begin() {
-    if (!stored?.ok || !careerId) return;
-    const started = startAttempt(stored.bank, careerId);
-    if (!started.ok) {
-      setStartError(started.error);
-      return;
-    }
-    const tick = Date.now();
-    setNow(tick);
-    setStartError(null);
-    setSession({ status: "playing", attempt: started.attempt, startedAt: tick });
+  
+function begin() {
+  if (!stored?.ok || !careerId) return;
+
+  const started = startAttempt(stored.bank, careerId, questionCount);
+
+  if (!started.ok) {
+    setStartError(started.error);
+    return;
   }
+
+  const tick = Date.now();
+  setNow(tick);
+  setStartError(null);
+  setSession({
+    status: "playing",
+    attempt: started.attempt,
+    startedAt: tick,
+  });
+}
+
 
   function choose(optionId: string) {
     if (!stored?.ok) return;
@@ -206,7 +216,12 @@ export function PlayPanel() {
   }
 
   if (session.status === "done") {
-    const summary = summarizeAttempt(questions, session.attempt);
+
+    const attemptedQuestions = questions.filter((question) =>
+  session.attempt.questionIds.includes(question.id),
+);
+
+const summary = summarizeAttempt(attemptedQuestions, session.attempt);
     const percentage =
       summary.total > 0
         ? Math.round((summary.correct / summary.total) * 100)
@@ -486,63 +501,115 @@ export function PlayPanel() {
     );
   }
 
-  return (
-    <section className="mt-8 grid w-full max-w-2xl gap-6">
-      <div className="overflow-hidden rounded-2xl border border-sand-100 border-t-4 border-t-joy-500 bg-white shadow-sm">
-        <div className="p-6 sm:p-8">
-          <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-joy-600">
-            Modo individual
+
+return (
+  <section className="mt-8 grid w-full max-w-2xl gap-6">
+    <div className="overflow-hidden rounded-2xl border border-sand-100 border-t-4 border-t-joy-500 bg-white shadow-sm">
+      <div className="p-6 sm:p-8">
+        <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-joy-600">
+          Modo individual
+        </p>
+
+        <h2 className="mt-3 text-3xl font-black leading-tight text-primary-900 sm:text-4xl">
+          {selected.name}
+        </h2>
+
+        <div className="mt-6 flex flex-wrap items-center gap-3">
+          <span className="inline-flex items-center gap-2 rounded-xl bg-primary-100 px-4 py-3 text-sm font-bold text-primary-900">
+            <BookOpen className="h-5 w-5" aria-hidden="true" />
+            {questions.length === 1
+              ? "1 pregunta disponible"
+              : `${questions.length} preguntas disponibles`}
+          </span>
+        </div>
+
+        {questions.length === 0 ? (
+          <p className="mt-5 rounded-xl border border-joy-100 bg-joy-100 p-4 text-sm text-ink-900">
+            Esta carrera todavía no tiene preguntas disponibles.
           </p>
-
-          <h2 className="mt-3 text-3xl font-black leading-tight text-primary-900 sm:text-4xl">
-            {selected.name}
-          </h2>
-
-          <div className="mt-6 flex flex-wrap items-center gap-3">
-            <span className="inline-flex items-center gap-2 rounded-xl bg-primary-100 px-4 py-3 text-sm font-bold text-primary-900">
-              <BookOpen className="h-5 w-5" aria-hidden="true" />
-              {questions.length === 1
-                ? "1 pregunta disponible"
-                : `${questions.length} preguntas disponibles`}
-            </span>
-          </div>
-
-          {questions.length === 0 ? (
-            <p className="mt-5 rounded-xl border border-joy-100 bg-joy-100 p-4 text-sm text-ink-900">
-              Esta carrera todavía no tiene preguntas disponibles.
-            </p>
-          ) : (
+        ) : (
+          <>
             <p className="mt-5 text-sm leading-6 text-ink-600">
               Poné a prueba tus conocimientos y comprobá cuánto sabés.
             </p>
-          )}
 
-          {startError ? (
-            <p role="alert" className="mt-4 rounded-xl border border-red-200 bg-red-50 p-4 text-sm font-medium text-red-800">
-              {startError}
-            </p>
+            <div className="mt-6">
+              <p className="text-sm font-extrabold text-primary-900">
+                ¿Cuántas preguntas querés responder?
+              </p>
+
+              <div className="mt-3 grid grid-cols-3 gap-3">
+                {[5, 10, 15].map((count) => {
+                  const selectedCount = questionCount === count;
+                  const availableCount = Math.min(count, questions.length);
+
+                  return (
+                    <button
+                      key={count}
+                      type="button"
+                      aria-pressed={selectedCount}
+                      onClick={() => setQuestionCount(count)}
+                      className={`rounded-xl border-2 px-3 py-4 text-center transition ${
+                        selectedCount
+                          ? "border-joy-500 bg-primary-100 text-primary-900 shadow-sm"
+                          : "border-sand-100 bg-white text-ink-600 hover:border-joy-300 hover:bg-sand-50"
+                      }`}
+                    >
+                      <span className="block text-2xl font-black">
+                        {count}
+                      </span>
+                      <span className="mt-1 block text-xs font-bold">
+                        {count === 1 ? "pregunta" : "preguntas"}
+                      </span>
+                      {questions.length < count ? (
+                        <span className="mt-2 block text-xs font-medium">
+                          Jugarás {availableCount}
+                        </span>
+                      ) : null}
+                    </button>
+                  );
+                })}
+              </div>
+
+              <p className="mt-3 text-xs leading-5 text-ink-600">
+                Las preguntas se eligen al azar. Si hay menos preguntas
+                disponibles que las seleccionadas, jugarás todas las
+                disponibles.
+              </p>
+            </div>
+          </>
+        )}
+
+        {startError ? (
+          <p
+            role="alert"
+            className="mt-4 rounded-xl border border-red-200 bg-red-50 p-4 text-sm font-medium text-red-800"
+          >
+            {startError}
+          </p>
+        ) : null}
+
+        <div className="mt-7 flex flex-wrap gap-3">
+          {questions.length > 0 ? (
+            <button type="button" className={primaryClass} onClick={begin}>
+              Empezar partida
+            </button>
           ) : null}
 
-          <div className="mt-7 flex flex-wrap gap-3">
-            {questions.length > 0 ? (
-              <button type="button" className={primaryClass} onClick={begin}>
-                Empezar partida
-              </button>
-            ) : null}
-
-            <button
-              type="button"
-              className={secondaryClass}
-              onClick={() => selectCareer(null)}
-            >
-              Elegir otra carrera
-            </button>
-          </div>
+          <button
+            type="button"
+            className={secondaryClass}
+            onClick={() => selectCareer(null)}
+          >
+            Elegir otra carrera
+          </button>
         </div>
       </div>
-    </section>
-  );
+    </div>
+  </section>
+);
 }
+
 
 function QuestionScreen({
   question,
