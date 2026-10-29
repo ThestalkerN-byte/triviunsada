@@ -1,17 +1,61 @@
-﻿
-@import "tailwindcss";
+﻿@import "tailwindcss";
 
 @theme {
-  --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
   --font-sans: Arial, Helvetica, sans-serif;
+  --font-serif: var(--font-source-serif), "Iowan Old Style", "Palatino Linotype",
+    Palatino, Georgia, serif;
 
-  --color-ink: #172536;
-  --color-paper: #f0eee8;
+  --color-primary-100: #d9efea;
+  --color-primary-500: #1f8a82;
+  --color-primary-700: #0f5552;
+  --color-primary-900: #0b3b3a;
+
+  --color-joy-100: #fde4dc;
+  --color-joy-500: #f2765a;
+  --color-joy-600: #db5f43;
+
+  --color-plum-100: #eee3f3;
+  --color-plum-700: #5e3a6e;
+
+  --color-sage-300: #a9d0b8;
+
+  --color-sand-50: #faf7f2;
+  --color-sand-100: #f1ece3;
+
+  --color-ink-400: #7c8c91;
+  --color-ink-600: #4b5a5f;
+  --color-ink-900: #1f2a2e;
+
+  --radius-card: 28px;
+  --radius-pill: 999px;
+
+  --shadow-card: 0 10px 30px -12px rgba(11, 59, 58, 0.18);
+  --shadow-float: 0 18px 40px -12px rgba(11, 59, 58, 0.35);
+
+  --color-paper: #faf7f2;
   --color-card: #ffffff;
-  --color-line: #dce2e9;
-  --color-accent: #a47d32;
-  --color-navy: #15324b;
-  --color-gold: #c5a45b;
-  --color-muted: #465467;
+  --color-line: #f1ece3;
+  --color-accent: #0f5552;
+  --color-muted: #4b5a5f;
+  --color-ink: #1f2a2e;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-bottom: 7rem;
+}
+
+body {
+  background-color: var(--color-sand-50);
+  color: var(--color-ink-900);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  nav[aria-label="Modos de juego"] a {
+    transition: none;
+  }
+}
