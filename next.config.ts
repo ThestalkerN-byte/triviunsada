@@ -3,6 +3,9 @@ import path from "node:path";
 
 const nextConfig: NextConfig = {
   agentRules: false,
+  experimental: {
+    agentUpgrade: "security",
+  },
   output: "export",
   trailingSlash: true,
   images: {

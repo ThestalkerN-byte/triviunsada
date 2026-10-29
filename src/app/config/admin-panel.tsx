@@ -24,11 +24,11 @@ import { useState, useSyncExternalStore } from "react";
 import type { ChangeEvent, FormEvent } from "react";
 
 const fieldClass =
-  "w-full rounded-xl border border-line bg-paper px-3 py-2 outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent";
+  "w-full rounded-xl border border-sand-100 bg-sand-50 px-3 py-2 outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500";
 const primaryClass =
-  "inline-flex min-h-11 items-center justify-center rounded-full bg-accent px-4 font-medium text-paper focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent disabled:cursor-not-allowed disabled:opacity-50";
+  "inline-flex min-h-11 items-center justify-center rounded-full bg-primary-700 px-4 font-medium text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500 disabled:cursor-not-allowed disabled:opacity-50";
 const secondaryClass =
-  "inline-flex min-h-11 items-center justify-center rounded-full border border-line bg-card px-4 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent disabled:cursor-not-allowed disabled:opacity-50";
+  "inline-flex min-h-11 items-center justify-center rounded-full border border-sand-100 bg-white px-4 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500 disabled:cursor-not-allowed disabled:opacity-50";
 
 type OptionDraft = {
   key: string;
@@ -346,7 +346,7 @@ export function AdminPanel() {
           {stored.error} No se modificó el banco.
         </p>
         {pendingClear ? (
-          <div className="grid max-w-xl gap-3 rounded-2xl border border-line bg-card p-4">
+          <div className="grid max-w-xl gap-3 rounded-2xl border border-sand-100 bg-white p-4">
             <p>¿Vaciar el banco dañado? Se pierde lo que haya quedado guardado.</p>
             <div className="flex flex-wrap gap-2">
               <button type="button" className={primaryClass} onClick={confirmClear}>
@@ -410,7 +410,7 @@ export function AdminPanel() {
                 return (
                   <li
                     key={career.id}
-                    className={`grid gap-3 rounded-2xl border bg-card p-4 ${selectedCareer ? "border-accent" : "border-line"}`}
+                    className={`grid gap-3 rounded-2xl border bg-white p-4 ${selectedCareer ? "border-primary-700" : "border-sand-100"}`}
                   >
                     {editingCareerId === career.id ? (
                       <form
@@ -445,7 +445,7 @@ export function AdminPanel() {
                       <>
                         <button
                           type="button"
-                          className="text-left text-xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+                          className="text-left text-xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500"
                           aria-pressed={selectedCareer}
                           onClick={() => selectCareer(career.id)}
                         >
@@ -549,7 +549,7 @@ export function AdminPanel() {
           {selected ? (
             <ul className="grid gap-3">
               {questions.map((question) => (
-                <li key={question.id} className="grid gap-3 rounded-2xl border border-line bg-card p-4">
+                <li key={question.id} className="grid gap-3 rounded-2xl border border-sand-100 bg-white p-4">
                   <p className="text-lg">{question.text}</p>
                   <p className="text-sm">
                     {question.timeLimitSeconds} segundos · {question.options.length}{" "}
@@ -693,7 +693,7 @@ function QuestionForm({
   }
 
   return (
-    <form className="grid gap-4 rounded-2xl border border-line bg-card p-4" onSubmit={onSubmit}>
+    <form className="grid gap-4 rounded-2xl border border-sand-100 bg-white p-4" onSubmit={onSubmit}>
       <div className="grid gap-2">
         <label htmlFor="question-text" className="text-sm">
           Enunciado
@@ -794,7 +794,7 @@ function ArchiveSection({
   onCancelImport: () => void;
 }) {
   return (
-    <section aria-labelledby="file-heading" className="grid gap-4 border-t border-line pt-8">
+    <section aria-labelledby="file-heading" className="grid gap-4 border-t border-sand-100 pt-8">
       <h2 id="file-heading" className="text-2xl">
         Archivo
       </h2>
@@ -825,7 +825,7 @@ function ArchiveSection({
         </label>
       </div>
       {pendingImport ? (
-        <div className="grid max-w-xl gap-3 rounded-2xl border border-line bg-card p-4">
+        <div className="grid max-w-xl gap-3 rounded-2xl border border-sand-100 bg-white p-4">
           <p>
             {pendingImport.name} reemplaza todas las carreras y preguntas de este
             navegador.

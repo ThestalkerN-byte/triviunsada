@@ -11,18 +11,41 @@ import type {
 } from "@/multiplayer/protocol";
 import { peerIdFromPin } from "@/multiplayer/pin";
 import { nicknameError } from "@/multiplayer/session";
-import { useEffect, useRef, useState } from "react";
+import {
+  AlertTriangle,
+  ArrowRight,
+  Check,
+  Clock,
+  Gamepad2,
+  GraduationCap,
+  Hourglass,
+  Medal,
+  Trophy,
+  Users,
+  WifiOff,
+} from "lucide-react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import type { FormEvent, MouseEvent } from "react";
 import type { DataConnection, Peer } from "peerjs";
 
 const primaryClass =
-  "inline-flex min-h-14 w-full items-center justify-center gap-3 rounded-xl bg-amber-400 px-6 py-4 text-lg font-extrabold text-blue-950 shadow-md transition duration-200 hover:-translate-y-0.5 hover:bg-amber-300 hover:shadow-lg focus-visible:outline-4 focus-visible:outline-offset-4 focus-visible:outline-amber-400 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:translate-y-0";
+  "inline-flex min-h-14 w-full items-center justify-center gap-3 rounded-xl bg-plum-700 px-6 py-4 text-lg font-extrabold text-white shadow-md transition duration-200 hover:-translate-y-0.5 hover:opacity-90 hover:shadow-lg focus-visible:outline-4 focus-visible:outline-offset-4 focus-visible:outline-plum-700 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:translate-y-0";
 
 const fieldClass =
-  "w-full rounded-xl border-2 border-slate-200 bg-white px-4 py-4 text-lg font-semibold text-blue-950 outline-none transition placeholder:text-slate-400 focus:border-amber-400 focus:ring-4 focus:ring-amber-100";
+  "w-full rounded-xl border-2 border-sand-100 bg-white px-4 py-4 text-lg font-semibold text-ink-900 outline-none transition placeholder:text-slate-400 focus:border-plum-700 focus:ring-4 focus:ring-plum-100";
 
 const optionClass =
-  "flex min-h-20 w-full items-center gap-4 rounded-2xl border-2 p-4 text-left text-lg font-semibold text-blue-950 transition duration-200 hover:-translate-y-0.5 hover:shadow-md focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-blue-700 disabled:cursor-not-allowed disabled:opacity-70 disabled:hover:translate-y-0";
+  "flex min-h-20 w-full items-center gap-4 rounded-2xl border-2 p-4 text-left text-lg font-semibold text-ink-900 transition duration-200 hover:-translate-y-0.5 hover:shadow-md focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-plum-700 disabled:cursor-not-allowed disabled:opacity-70 disabled:hover:translate-y-0";
+
+const heroClass =
+  "rounded-3xl bg-gradient-to-br from-primary-900 via-primary-700 to-[#17635F] text-white shadow-xl";
+
+const optionColors = [
+  "border-primary-500 bg-primary-100 hover:border-primary-700",
+  "border-joy-500 bg-joy-100 hover:border-joy-600",
+  "border-sage-300 bg-sand-50 hover:border-sage-300",
+  "border-plum-700 bg-plum-100 hover:border-plum-700",
+];
 
 type PlayerView =
   | { status: "form" }
@@ -207,17 +230,18 @@ export function JoinPanel() {
 
   if (view.status === "form" || view.status === "rejected") {
     return (
-      <section className="mt-8 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-xl">
-        <div className="bg-gradient-to-br from-blue-950 via-blue-900 to-indigo-900 px-6 py-8 text-white sm:px-9 sm:py-10">
-          <div className="inline-flex rounded-full border border-amber-200/30 bg-white/10 px-4 py-2 text-xs font-bold uppercase tracking-widest text-amber-200">
-            🎓 Trivia UNSAdA
+      <section className="mt-8 overflow-hidden rounded-3xl border border-sand-100 bg-white shadow-xl">
+        <div className={`${heroClass} rounded-none px-6 py-8 sm:px-9 sm:py-10`}>
+          <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-bold uppercase tracking-widest text-sage-300">
+            <GraduationCap className="h-4 w-4" aria-hidden />
+            Trivia UNSAdA
           </div>
 
           <h2 className="mt-6 text-3xl font-black sm:text-4xl">
             ¡Sumate a la trivia!
           </h2>
 
-          <p className="mt-3 max-w-md leading-7 text-blue-100">
+          <p className="mt-3 max-w-md leading-7 text-white/80">
             Ingresá el PIN que te compartió el anfitrión, elegí tu nickname y
             preparate para competir.
           </p>
@@ -228,7 +252,7 @@ export function JoinPanel() {
           onSubmit={(event) => void enter(event)}
         >
           <label className="grid gap-2" htmlFor="pin">
-            <span className="text-sm font-extrabold uppercase tracking-wider text-blue-950">
+            <span className="text-sm font-extrabold uppercase tracking-wider text-ink-900">
               Código de la sala
             </span>
 
@@ -252,7 +276,7 @@ export function JoinPanel() {
           </label>
 
           <label className="grid gap-2" htmlFor="nickname">
-            <span className="text-sm font-extrabold uppercase tracking-wider text-blue-950">
+            <span className="text-sm font-extrabold uppercase tracking-wider text-ink-900">
               Tu nickname
             </span>
 
@@ -272,7 +296,7 @@ export function JoinPanel() {
               role="alert"
               className="flex items-start gap-3 rounded-xl border border-red-200 bg-red-50 p-4 text-sm font-semibold text-red-800"
             >
-              <span className="text-lg">⚠️</span>
+              <AlertTriangle className="mt-0.5 h-5 w-5 shrink-0" aria-hidden />
               <span>
                 {view.status === "rejected" ? view.reason : formError}
               </span>
@@ -280,7 +304,8 @@ export function JoinPanel() {
           ) : null}
 
           <button type="submit" className={primaryClass}>
-            Entrar a la sala <span aria-hidden="true">→</span>
+            Entrar a la sala
+            <ArrowRight className="h-5 w-5" aria-hidden />
           </button>
 
           <p className="text-center text-xs leading-5 text-slate-500">
@@ -294,18 +319,18 @@ export function JoinPanel() {
   if (view.status === "connecting") {
     return (
       <section
-        className="mt-8 rounded-3xl bg-gradient-to-br from-blue-950 to-indigo-900 p-8 text-center text-white shadow-xl sm:p-12"
+        className={`${heroClass} mt-8 p-8 text-center sm:p-12`}
         aria-live="polite"
       >
-        <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-2xl bg-white/10 text-4xl">
-          🎮
+        <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-2xl bg-white/10">
+          <Gamepad2 className="h-10 w-10" aria-hidden />
         </div>
         <h2 className="mt-6 text-3xl font-black">Conectando a la sala...</h2>
-        <p className="mt-3 leading-7 text-blue-100">
+        <p className="mt-3 leading-7 text-white/80">
           Estamos buscando la partida. Un momento, por favor.
         </p>
         <div className="mx-auto mt-6 h-2 max-w-xs overflow-hidden rounded-full bg-white/15">
-          <div className="h-full w-2/3 animate-pulse rounded-full bg-amber-300" />
+          <div className="h-full w-2/3 animate-pulse rounded-full bg-sage-300" />
         </div>
       </section>
     );
@@ -314,8 +339,8 @@ export function JoinPanel() {
   if (view.status === "cut") {
     return (
       <section className="mt-8 rounded-3xl border-2 border-red-200 bg-white p-8 text-center shadow-lg sm:p-12">
-        <div className="text-5xl">📡</div>
-        <h2 className="mt-5 text-3xl font-black text-blue-950">
+        <WifiOff className="mx-auto h-12 w-12 text-primary-900" aria-hidden />
+        <h2 className="mt-5 text-3xl font-black text-primary-900">
           Se perdió la conexión
         </h2>
         <p className="mt-3 leading-7 text-slate-600">
@@ -329,47 +354,49 @@ export function JoinPanel() {
   if (view.status === "lobby") {
     return (
       <section className="mt-8 grid gap-6">
-        <div className="rounded-3xl bg-gradient-to-br from-blue-950 via-blue-900 to-indigo-900 p-7 text-white shadow-xl sm:p-10">
-          <span className="inline-flex rounded-full border border-amber-200/30 bg-white/10 px-4 py-2 text-xs font-bold uppercase tracking-widest text-amber-200">
-            ✓ Conexión exitosa
+        <div className={`${heroClass} p-7 sm:p-10`}>
+          <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-bold uppercase tracking-widest text-sage-300">
+            <Check className="h-4 w-4" aria-hidden />
+            Conexión exitosa
           </span>
 
           <h2 className="mt-6 text-3xl font-black sm:text-4xl">
             ¡Ya estás en la sala!
           </h2>
 
-          <p className="mt-3 leading-7 text-blue-100">
+          <p className="mt-3 leading-7 text-white/80">
             Esperá a que el anfitrión comience la partida. ¡Mucha suerte!
           </p>
 
           <div className="mt-7 flex items-center gap-4 rounded-2xl border border-white/10 bg-white/10 p-4">
-            <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-amber-400 text-2xl font-black text-blue-950">
-              {nicknameRef.current.slice(0, 1).toUpperCase()}
+            <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-plum-700 text-2xl font-black text-white">
+              {nickname.trim().slice(0, 1).toUpperCase()}
             </div>
             <div className="min-w-0">
-              <p className="text-xs font-bold uppercase tracking-widest text-blue-200">
+              <p className="text-xs font-bold uppercase tracking-widest text-white/80">
                 Estás jugando como
               </p>
               <p className="mt-1 break-words text-xl font-extrabold text-white">
-                {nicknameRef.current}
+                {nickname.trim()}
               </p>
             </div>
           </div>
         </div>
 
-        <div className="rounded-3xl border-2 border-slate-200 bg-white p-6 shadow-sm sm:p-8">
+        <div className="rounded-3xl border-2 border-sand-100 bg-white p-6 shadow-sm sm:p-8">
           <div className="flex flex-wrap items-center justify-between gap-3">
             <div>
-              <p className="text-xs font-black uppercase tracking-widest text-amber-700">
+              <p className="text-xs font-black uppercase tracking-widest text-plum-700">
                 Sala de juego
               </p>
-              <h3 className="mt-2 text-2xl font-black text-blue-950">
+              <h3 className="mt-2 text-2xl font-black text-primary-900">
                 Participantes
               </h3>
             </div>
 
-            <span className="rounded-2xl bg-blue-100 px-4 py-3 font-black text-blue-950">
-              👥 {view.players.length}
+            <span className="inline-flex items-center gap-2 rounded-2xl bg-plum-100 px-4 py-3 font-black text-primary-900">
+              <Users className="h-5 w-5" aria-hidden />
+              {view.players.length}
             </span>
           </div>
 
@@ -378,19 +405,19 @@ export function JoinPanel() {
               <li
                 key={player.nickname}
                 className={`flex items-center gap-3 rounded-2xl border p-4 ${
-                  player.nickname === nicknameRef.current
-                    ? "border-amber-300 bg-amber-50"
-                    : "border-blue-100 bg-blue-50"
+                  player.nickname === nickname.trim()
+                    ? "border-plum-700 bg-plum-100"
+                    : "border-sand-100 bg-sand-50"
                 }`}
               >
-                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-blue-950 font-black text-white">
+                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-primary-900 font-black text-white">
                   {index + 1}
                 </span>
-                <span className="break-words font-bold text-blue-950">
+                <span className="break-words font-bold text-primary-900">
                   {player.nickname}
                 </span>
-                {player.nickname === nicknameRef.current ? (
-                  <span className="ml-auto text-xs font-extrabold text-amber-700">
+                {player.nickname === nickname.trim() ? (
+                  <span className="ml-auto text-xs font-extrabold text-plum-700">
                     VOS
                   </span>
                 ) : null}
@@ -398,9 +425,9 @@ export function JoinPanel() {
             ))}
           </ul>
 
-          <div className="mt-6 rounded-2xl bg-slate-50 p-4 text-center">
-            <span className="text-xl">⏳</span>
-            <p className="mt-2 font-bold text-blue-950">
+          <div className="mt-6 rounded-2xl bg-sand-50 p-4 text-center">
+            <Hourglass className="mx-auto h-6 w-6 text-primary-900" aria-hidden />
+            <p className="mt-2 font-bold text-primary-900">
               Esperando que empiece la partida...
             </p>
           </div>
@@ -416,32 +443,26 @@ export function JoinPanel() {
       now || view.question.startedAt,
     );
 
-    const optionColors = [
-      "border-blue-200 bg-blue-50 hover:border-blue-400",
-      "border-amber-200 bg-amber-50 hover:border-amber-400",
-      "border-emerald-200 bg-emerald-50 hover:border-emerald-400",
-      "border-violet-200 bg-violet-50 hover:border-violet-400",
-    ];
-
     return (
       <section className="mt-8 grid gap-6">
-        <div className="rounded-3xl bg-gradient-to-br from-blue-950 via-blue-900 to-indigo-900 p-6 text-white shadow-xl sm:p-9">
+        <div className={`${heroClass} p-6 sm:p-9`}>
           <div className="flex flex-wrap items-center justify-between gap-3">
-            <span className="rounded-full border border-amber-200/30 bg-white/10 px-4 py-2 text-xs font-bold uppercase tracking-widest text-amber-200">
-              🎓 Trivia UNSAdA
+            <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-bold uppercase tracking-widest text-sage-300">
+              <GraduationCap className="h-4 w-4" aria-hidden />
+              Trivia UNSAdA
             </span>
-            <span className="rounded-full bg-white/10 px-4 py-2 text-sm font-bold text-blue-100">
+            <span className="rounded-full bg-white/10 px-4 py-2 text-sm font-bold text-white/80">
               Pregunta {view.question.index + 1} de {view.question.total}
             </span>
           </div>
 
           <div className="mt-7 rounded-2xl border border-white/10 bg-white/5 px-5 py-6 text-center">
-            <p className="text-xs font-bold uppercase tracking-widest text-blue-200">
+            <p className="text-xs font-bold uppercase tracking-widest text-white/80">
               Tiempo restante
             </p>
             <p
               className={`mt-2 text-7xl font-black tabular-nums sm:text-8xl ${
-                remaining <= 5 ? "text-red-300" : "text-amber-300"
+                remaining <= 5 ? "text-red-300" : "text-sage-300"
               }`}
               aria-live="off"
             >
@@ -451,7 +472,7 @@ export function JoinPanel() {
             <div className="mx-auto mt-4 h-2 max-w-md overflow-hidden rounded-full bg-white/15">
               <div
                 className={`h-full rounded-full transition-all duration-300 ${
-                  remaining <= 5 ? "bg-red-400" : "bg-amber-300"
+                  remaining <= 5 ? "bg-red-400" : "bg-sage-300"
                 }`}
                 style={{
                   width: `${Math.max(
@@ -467,11 +488,11 @@ export function JoinPanel() {
           </div>
         </div>
 
-        <div className="rounded-3xl border-2 border-slate-200 bg-white p-6 shadow-sm sm:p-9">
-          <p className="text-xs font-black uppercase tracking-widest text-amber-700">
+        <div className="rounded-3xl border-2 border-sand-100 bg-white p-6 shadow-sm sm:p-9">
+          <p className="text-xs font-black uppercase tracking-widest text-plum-700">
             Tu desafío
           </p>
-          <h2 className="mt-4 break-words text-2xl font-black leading-tight text-blue-950 sm:text-4xl">
+          <h2 className="mt-4 break-words text-2xl font-black leading-tight text-primary-900 sm:text-4xl">
             {view.question.text}
           </h2>
 
@@ -482,12 +503,12 @@ export function JoinPanel() {
                 type="button"
                 className={`${optionClass} ${
                   optionColors[index % optionColors.length]
-                } ${view.sent ? "border-slate-200 bg-slate-100" : ""}`}
+                } ${view.sent ? "border-sand-100 bg-sand-100" : ""}`}
                 data-option={option.id}
                 disabled={view.sent}
                 onClick={choose}
               >
-                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white font-black text-blue-950 shadow-sm">
+                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white font-black text-ink-900 shadow-sm">
                   {String.fromCharCode(65 + index)}
                 </span>
                 <span className="break-words">{option.text}</span>
@@ -500,7 +521,7 @@ export function JoinPanel() {
               className="mt-6 flex items-center gap-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-5 text-emerald-800"
               aria-live="polite"
             >
-              <span className="text-2xl">✓</span>
+              <Check className="h-6 w-6 shrink-0" aria-hidden />
               <div>
                 <p className="font-extrabold">¡Respuesta enviada!</p>
                 <p className="mt-1 text-sm">
@@ -520,7 +541,7 @@ export function JoinPanel() {
 
   if (view.status === "reveal") {
     const mine = view.roundPoints.find(
-      (row) => row.nickname === nicknameRef.current,
+      (row) => row.nickname === nickname.trim(),
     );
     const correct = view.question.options.find(
       (option) => option.id === view.correctOptionId,
@@ -528,12 +549,13 @@ export function JoinPanel() {
 
     return (
       <section className="mt-8 grid gap-6">
-        <div className="rounded-3xl bg-gradient-to-br from-blue-950 via-blue-900 to-indigo-900 p-7 text-white shadow-xl sm:p-9">
-          <span className="inline-flex rounded-full bg-emerald-400/15 px-4 py-2 text-sm font-bold text-emerald-200">
-            ✓ Respuesta revelada
+        <div className={`${heroClass} p-7 sm:p-9`}>
+          <span className="inline-flex items-center gap-2 rounded-full bg-emerald-400/15 px-4 py-2 text-sm font-bold text-emerald-200">
+            <Check className="h-4 w-4" aria-hidden />
+            Respuesta revelada
           </span>
 
-          <p className="mt-6 text-xs font-bold uppercase tracking-widest text-blue-200">
+          <p className="mt-6 text-xs font-bold uppercase tracking-widest text-white/80">
             Pregunta {view.question.index + 1} de {view.question.total}
           </p>
 
@@ -545,27 +567,33 @@ export function JoinPanel() {
             <p className="text-xs font-bold uppercase tracking-widest text-emerald-200">
               Respuesta correcta
             </p>
-            <p className="mt-2 break-words text-xl font-extrabold text-white">
-              ✓ {correct?.text ?? "Respuesta no disponible"}
+            <p className="mt-2 flex items-start gap-2 break-words text-xl font-extrabold text-white">
+              <Check className="mt-1 h-6 w-6 shrink-0" aria-hidden />
+              {correct?.text ?? "Respuesta no disponible"}
             </p>
           </div>
         </div>
 
-        <div className="rounded-3xl border-2 border-amber-200 bg-amber-50 p-6 text-center shadow-sm sm:p-8">
-          <p className="text-sm font-black uppercase tracking-widest text-amber-800">
+        <div className="rounded-3xl border-2 border-plum-700 bg-plum-100 p-6 text-center shadow-sm sm:p-8">
+          <p className="text-sm font-black uppercase tracking-widest text-plum-700">
             Tu resultado en esta ronda
           </p>
-          <p className="mt-3 text-6xl font-black text-blue-950">
+          <p className="mt-3 text-6xl font-black text-primary-900">
             +{mine?.points ?? 0}
           </p>
           <p className="mt-2 font-semibold text-slate-600">puntos obtenidos</p>
         </div>
 
-        <Ranking rows={view.leaderboard} title="🏆 Ranking general" />
+        <Ranking
+          rows={view.leaderboard}
+          icon={<Trophy className="h-7 w-7 text-plum-700" aria-hidden />}
+          title="Ranking general"
+        />
 
-        <div className="rounded-2xl border border-blue-100 bg-blue-50 p-5 text-center">
-          <p className="font-bold text-blue-950">
-            ⏳ Esperá la siguiente pregunta
+        <div className="rounded-2xl border border-sand-100 bg-sand-50 p-5 text-center">
+          <p className="inline-flex items-center gap-2 font-bold text-primary-900">
+            <Clock className="h-5 w-5" aria-hidden />
+            Esperá la siguiente pregunta
           </p>
           <p className="mt-1 text-sm text-slate-600">
             El anfitrión continuará la partida.
@@ -577,42 +605,49 @@ export function JoinPanel() {
 
   return (
     <section className="mt-8 grid gap-6">
-      <div className="rounded-3xl bg-gradient-to-br from-blue-950 via-blue-900 to-indigo-900 p-8 text-center text-white shadow-xl sm:p-12">
-        <div className="text-6xl">🏆</div>
-        <p className="mt-5 text-xs font-bold uppercase tracking-[0.2em] text-amber-200">
+      <div className={`${heroClass} p-8 text-center sm:p-12`}>
+        <Trophy className="mx-auto h-16 w-16 text-joy-500" aria-hidden />
+        <p className="mt-5 text-xs font-bold uppercase tracking-[0.2em] text-sage-300">
           Trivia UNSAdA
         </p>
         <h2 className="mt-3 text-4xl font-black sm:text-5xl">
           ¡Partida finalizada!
         </h2>
-        <p className="mt-4 leading-7 text-blue-100">
+        <p className="mt-4 leading-7 text-white/80">
           ¡Gracias por participar! Estos son los resultados finales.
         </p>
       </div>
 
-      <Ranking rows={view.leaderboard} title="🏆 Ranking final" />
+      <Ranking
+        rows={view.leaderboard}
+        icon={<Trophy className="h-7 w-7 text-plum-700" aria-hidden />}
+        title="Ranking final"
+      />
     </section>
   );
 }
 
 function Ranking({
   rows,
-  title = "🏅 Clasificación",
+  title = "Clasificación",
+  icon,
 }: {
   rows: LeaderboardEntry[];
   title?: string;
+  icon?: ReactNode;
 }) {
   return (
-    <section className="rounded-3xl border-2 border-slate-200 bg-white p-6 shadow-sm sm:p-8">
-      <p className="text-xs font-black uppercase tracking-widest text-amber-700">
+    <section className="rounded-3xl border-2 border-sand-100 bg-white p-6 shadow-sm sm:p-8">
+      <p className="text-xs font-black uppercase tracking-widest text-plum-700">
         Trivia UNSAdA
       </p>
-      <h2 className="mt-2 text-2xl font-black text-blue-950 sm:text-3xl">
+      <h2 className="mt-2 flex items-center gap-3 text-2xl font-black text-primary-900 sm:text-3xl">
+        {icon}
         {title}
       </h2>
 
       {rows.length === 0 ? (
-        <p className="mt-5 rounded-2xl bg-slate-50 p-5 text-slate-500">
+        <p className="mt-5 rounded-2xl bg-sand-50 p-5 text-slate-500">
           Todavía no hay resultados para mostrar.
         </p>
       ) : (
@@ -622,32 +657,32 @@ function Ranking({
               key={`${row.nickname}-${index}`}
               className={`flex items-center justify-between gap-4 rounded-2xl border p-4 ${
                 index === 0
-                  ? "border-amber-300 bg-amber-50"
-                  : "border-slate-100 bg-slate-50"
+                  ? "border-joy-500 bg-sand-50"
+                  : "border-sand-100 bg-sand-50"
               }`}
             >
               <div className="flex min-w-0 items-center gap-3">
                 <span
                   className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-xl font-black ${
                     index === 0
-                      ? "bg-amber-400 text-blue-950"
-                      : "bg-blue-950 text-white"
+                      ? "bg-joy-500 text-ink-900"
+                      : "bg-primary-900 text-white"
                   }`}
                 >
-                  {index === 0
-                    ? "🥇"
-                    : index === 1
-                      ? "🥈"
-                      : index === 2
-                        ? "🥉"
-                        : index + 1}
+                  {index === 0 ? (
+                    <Trophy className="h-5 w-5" aria-hidden />
+                  ) : index === 1 || index === 2 ? (
+                    <Medal className="h-5 w-5" aria-hidden />
+                  ) : (
+                    index + 1
+                  )}
                 </span>
-                <span className="break-words font-bold text-blue-950">
+                <span className="break-words font-bold text-primary-900">
                   {row.nickname}
                 </span>
               </div>
 
-              <span className="shrink-0 text-lg font-black tabular-nums text-blue-950">
+              <span className="shrink-0 text-lg font-black tabular-nums text-ink-900">
                 {row.score} <span className="text-sm font-semibold">pts</span>
               </span>
             </li>

@@ -15,7 +15,7 @@ npm run dev
 
 Abrí http://localhost:3000.
 
-## Pruebas
+<!-- ## Prueba -->
 
 ```bash
 npm test

@@ -6,11 +6,11 @@ import type { FormEvent } from "react";
 import { AdminPanel } from "./admin-panel";
 
 const fieldClass =
-  "w-full rounded-xl border border-line bg-paper px-3 py-3 text-lg outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent";
+  "w-full rounded-xl border border-sand-100 bg-sand-50 px-3 py-3 text-lg outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500";
 const primaryClass =
-  "inline-flex min-h-12 items-center justify-center rounded-full bg-accent px-5 font-medium text-paper focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent";
+  "inline-flex min-h-12 items-center justify-center rounded-full bg-primary-700 px-5 font-medium text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500";
 const secondaryClass =
-  "inline-flex min-h-11 items-center justify-center rounded-full border border-line bg-card px-4 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent";
+  "inline-flex min-h-11 items-center justify-center rounded-full border border-sand-100 bg-white px-4 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500";
 
 const listeners = new Set<() => void>();
 
@@ -49,7 +49,7 @@ export function ConfigGate() {
   if (!open) {
     return (
       <>
-        <h1 className="mt-6 text-4xl">Configuración</h1>
+        <h1 className="mt-6 text-4xl text-primary-900">Configuración</h1>
         <form className="mt-8 grid max-w-md gap-4" onSubmit={enter} autoComplete="off">
           <label className="grid gap-2" htmlFor="config-user">
             Usuario
@@ -88,7 +88,7 @@ export function ConfigGate() {
   return (
     <>
       <div className="mt-6 flex flex-wrap items-end justify-between gap-4">
-        <h1 className="text-4xl">Configuración</h1>
+        <h1 className="text-4xl text-primary-900">Configuración</h1>
         <button type="button" className={secondaryClass} onClick={() => publishAccess(false)}>
           Salir
         </button>
