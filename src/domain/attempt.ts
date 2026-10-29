@@ -34,25 +34,49 @@ export function questionsForCareer(bank: QuestionBank, careerId: string): Questi
   return bank.questions.filter((question) => question.careerId === careerId);
 }
 
-export function startAttempt(bank: QuestionBank, careerId: string): AttemptStart {
+
+export function startAttempt(
+  bank: QuestionBank,
+  careerId: string,
+  questionCount: number = 5,
+): AttemptStart {
   if (!bank.careers.some((career) => career.id === careerId)) {
     return { ok: false, error: "No existe esa carrera." };
   }
 
   const questions = questionsForCareer(bank, careerId);
+
   if (questions.length === 0) {
     return { ok: false, error: "Esta carrera no tiene preguntas." };
   }
+
+  // Mezclar las preguntas aleatoriamente.
+  const shuffledQuestions = [...questions];
+
+  for (let i = shuffledQuestions.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffledQuestions[i], shuffledQuestions[j]] = [
+      shuffledQuestions[j],
+      shuffledQuestions[i],
+    ];
+  }
+
+  // No superar la cantidad de preguntas disponibles.
+  const selectedQuestions = shuffledQuestions.slice(
+    0,
+    Math.min(questionCount, shuffledQuestions.length),
+  );
 
   return {
     ok: true,
     attempt: {
       careerId,
-      questionIds: questions.map((question) => question.id),
+      questionIds: selectedQuestions.map((question) => question.id),
       answers: [],
     },
   };
 }
+
 
 export function answerAttempt(
   attempt: Attempt,
